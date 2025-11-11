@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using myMusic.Models;
 using System.Security.Cryptography.X509Certificates;
 using myMusic.Services;
+using MusicService.interfaces;
 
 namespace myMusic.controllers;
 
@@ -9,11 +10,11 @@ namespace myMusic.controllers;
 [Route("[controller]")]
 public class MusicController : ControllerBase
 {
-    private MusicService service;
-
-   public MusicController()
+   // private MusicService service;
+    IMusicServices service;
+   public MusicController( IMusicServices musicService)
     {
-        service = new MusicService();
+        this.service = musicService;
     }
 
     [HttpGet()]

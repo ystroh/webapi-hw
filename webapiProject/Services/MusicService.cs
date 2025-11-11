@@ -1,23 +1,26 @@
 using Microsoft.AspNetCore.Mvc;
 using myMusic.Models;
 using System.Security.Cryptography.X509Certificates;
-
+using MusicService.interfaces;
 namespace myMusic.Services;
 
-public class MusicService
+public class MusicService : IMusicServices
 {
   
-   private static List<Music> list;
 
-   static MusicService()
+     private List<Music> list;
+
+    public MusicService()
     {
-        list = new List<Music>
-        {
-            new Music { Id = 1, Name = "gitara"},
-            new Music { Id = 2, Name = "organit", IsWoodMade = true},
-            new Music { Id = 3, Name = "chalil"}
+        this.list = new List<Music>{
+             new Music { Id = 1, Name = "guittar",IsWoodMade=true},
+             new Music { Id = 2, Name = "fiddle",IsWoodMade=true},
+             new Music { Id = 3, Name = "organ",IsWoodMade=true},
+             new Music { Id = 4, Name = "piano",IsWoodMade=false} 
         };
     }
+   
+   
 
     public List<Music> Get()
     {
@@ -65,3 +68,17 @@ public class MusicService
         return true;
     }
 }
+    public static class MusicExtension{
+      public static void AddMusicService(this IServiceCollection services)
+        {
+            services.AddSingleton<IMusicServices, MusicService>();
+            //services.AddScope<IOrderManager, OrderManager>();
+            //services.AddTransient<IOrderSender, OrderSenderHttp>();            
+        }
+
+
+
+
+}
+
+
