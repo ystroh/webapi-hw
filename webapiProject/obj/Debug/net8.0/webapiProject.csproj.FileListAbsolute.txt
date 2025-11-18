@@ -1,0 +1,8 @@
+Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net8.0\webapiProject.csproj.AssemblyReference.cache
+Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net8.0\webapiProject.GeneratedMSBuildEditorConfig.editorconfig
+Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net8.0\webapiProject.AssemblyInfoInputs.cache
+Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net8.0\webapiProject.AssemblyInfo.cs
+Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net8.0\webapiProject.csproj.CoreCompileInputs.cache
+Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net8.0\webapiProject.MvcApplicationPartsAssemblyInfo.cs
+Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net8.0\webapiProject.MvcApplicationPartsAssemblyInfo.cache
+Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net8.0\webapiProject.sourcelink.json

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\webapiProject\\webapiProject.csproj": {}
+    "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\myProject.csproj": {}
   },
   "projects": {
-    "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\webapiProject\\webapiProject.csproj": {
+    "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\myProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\webapiProject\\webapiProject.csproj",
-        "projectName": "webapiProject",
-        "projectPath": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\webapiProject\\webapiProject.csproj",
+        "projectUniqueName": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\myProject.csproj",
+        "projectName": "myProject",
+        "projectPath": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\myProject.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\webapiProject\\obj\\",
+        "outputPath": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -48,7 +48,7 @@
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
