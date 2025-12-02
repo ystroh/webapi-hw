@@ -33,3 +33,7 @@ Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net9.0\sta
 Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.webapiProject.props
 Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.webapiProject.props
 Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net9.0\staticwebassets.pack.json
+Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\bin\Debug\net9.0\webapiProject.staticwebassets.runtime.json
+Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net9.0\compressed\6g6fzkwa4e-zoxlk5se5i.gz
+Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net9.0\compressed\johvrdl4x5-1wxj0pxqes.gz
+Z:\יד תשפו\סטרו יהודית\wabapi\webapiProject\obj\Debug\net9.0\compressed\czw3g7jrs5-kjwdub34vh.gz

@@ -1,94 +1,19 @@
 {
   "Version": 1,
-  "Hash": "q0/M+9lMQe2t1XysmWUzku2YDaUmaQ7s6HWb+dH+CfQ=",
-  "Source": "myProject",
-  "BasePath": "_content/myProject",
-  "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "myProject\\wwwroot",
-      "Source": "myProject",
-      "ContentRoot": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\wwwroot\\",
-      "BasePath": "_content/myProject",
-      "Pattern": "**"
-    }
-  ],
-  "Assets": [
-    {
-      "Identity": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\wwwroot\\css\\site.css",
-      "SourceId": "myProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\wwwroot\\",
-      "BasePath": "_content/myProject",
-      "RelativePath": "css/site#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "zoxlk5se5i",
-      "Integrity": "06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\wwwroot\\index.html",
-      "SourceId": "myProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\wwwroot\\",
-      "BasePath": "_content/myProject",
-      "RelativePath": "index#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "1wxj0pxqes",
-      "Integrity": "UcbZT5o0Yu51Mu3l5sPGfvFW1WzFihapVNNL747ni/0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\wwwroot\\js\\site.js",
-      "SourceId": "myProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\wwwroot\\",
-      "BasePath": "_content/myProject",
-      "RelativePath": "js/site#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "kjwdub34vh",
-      "Integrity": "AAD37KO5/bW6pmgllZyzV3jmjZdBRdfwk9yXfSV+0m0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
-    }
-  ],
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\wwwroot\\css\\site.css",
+      "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -105,10 +30,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Mon, 18 Oct 2021 22:58:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -120,12 +41,16 @@
     },
     {
       "Route": "css/site.zoxlk5se5i.css",
-      "AssetFile": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\wwwroot\\css\\site.css",
+      "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -142,10 +67,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Mon, 18 Oct 2021 22:58:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -154,23 +75,27 @@
           "Value": "zoxlk5se5i"
         },
         {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
         }
       ]
     },
     {
       "Route": "index.1wxj0pxqes.html",
-      "AssetFile": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\wwwroot\\index.html",
+      "AssetFile": "index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -187,10 +112,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 18 Nov 2025 12:16:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -199,23 +120,27 @@
           "Value": "1wxj0pxqes"
         },
         {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-UcbZT5o0Yu51Mu3l5sPGfvFW1WzFihapVNNL747ni/0="
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
         }
       ]
     },
     {
       "Route": "index.html",
-      "AssetFile": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\wwwroot\\index.html",
+      "AssetFile": "index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -232,10 +157,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 18 Nov 2025 12:16:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -247,12 +168,16 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\wwwroot\\js\\site.js",
+      "AssetFile": "js/site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -269,10 +194,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 18 Nov 2025 12:16:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -284,12 +205,16 @@
     },
     {
       "Route": "js/site.kjwdub34vh.js",
-      "AssetFile": "Z:\\יד תשפו\\סטרו יהודית\\wabapi\\myProject\\wwwroot\\js\\site.js",
+      "AssetFile": "js/site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -306,10 +231,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 18 Nov 2025 12:16:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -318,12 +239,12 @@
           "Value": "kjwdub34vh"
         },
         {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-AAD37KO5/bW6pmgllZyzV3jmjZdBRdfwk9yXfSV+0m0="
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
         }
       ]
     }
