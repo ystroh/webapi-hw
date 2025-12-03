@@ -2,12 +2,17 @@
 using MusicService.interfaces;
 using myMusic.Services;
 using MyMiddleware;
+using myUsers.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddMusicService();
 builder.Services.AddControllers();
+
+
+builder.Services.AddUsersService();//try
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 
 builder.Logging.ClearProviders();//log4net seriLog//try
@@ -19,7 +24,7 @@ builder.Services.AddOpenApi();
 var app = builder.Build();
 
 
- app.UseMyLogMiddleware();//try
+ app.UseMyLogMiddleware();
 
 //app.Run(async context => await context.Response.WriteAsync("our no-map terminal 2nd middleware!\n"));//Try
 
@@ -37,7 +42,7 @@ if (app.Environment.IsDevelopment())
  
 }
 
-//הוספה עכשיו
+
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
