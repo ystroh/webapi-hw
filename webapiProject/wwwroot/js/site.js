@@ -12,7 +12,7 @@ function addItem() {
     const addNameTextbox = document.getElementById('add-name');
 
     const item = {
-        isGlutenFree: false,
+        IsWoodMade: false,
         name: addNameTextbox.value.trim()
     };
 
@@ -45,7 +45,7 @@ function displayEditForm(id) {
 
     document.getElementById('edit-name').value = item.name;
     document.getElementById('edit-id').value = item.id;
-    document.getElementById('edit-isWoodMade').checked = item.isGlutenFree;
+    document.getElementById('edit-isWoodMade').checked = item.IsWoodMade;
     document.getElementById('editForm').style.display = 'block';
 }
 
@@ -53,10 +53,9 @@ function updateItem() {
     const itemId = document.getElementById('edit-id').value;
     const item = {
         id: parseInt(itemId, 10),
-        isGlutenFree: document.getElementById('edit-isGlutenFree').checked,
+        IsWoodMade: document.getElementById('edit-isWoodMade').checked,
         name: document.getElementById('edit-name').value.trim()
     };
-
     fetch(`${uri}/${itemId}`, {
             method: 'PUT',
             headers: {
@@ -95,7 +94,7 @@ function _displayItems(data) {
         let isGlutenFreeCheckbox = document.createElement('input');
         isGlutenFreeCheckbox.type = 'checkbox';
         isGlutenFreeCheckbox.disabled = true;
-        isGlutenFreeCheckbox.checked = item.isGlutenFree;
+        isGlutenFreeCheckbox.checked = item.IsWoodMade;
 
         let editButton = button.cloneNode(false);
         editButton.innerText = 'Edit';

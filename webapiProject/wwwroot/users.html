@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <title>Music CRUD</title>
     <link rel="stylesheet" href="css/site.css" />
-   
+    <link rel="stylesheet" href="./js/users.js">
 </head>
 
 <body>
-    <h1>Music CRUD</h1>
+    <h1>Users CRUD</h1>
     <h3>Add</h3>
     <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
         <input type="text" id="add-name" placeholder="New music">
         <input type="submit" value="Add">
+   
     </form>
 
     <div id="editForm">
@@ -41,7 +42,7 @@
 
 
 
-    <script src="js/users.js" asp-append-version="true"></script>
+    <script src="./js/users.js" asp-append-version="true"></script>
     <script type="text/javascript">
         getItems();
     </script>
