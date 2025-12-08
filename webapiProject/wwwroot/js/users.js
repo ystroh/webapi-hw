@@ -10,9 +10,10 @@ function getItems() {
 
 function addItem() {
     const addNameTextbox = document.getElementById('add-name');
+    const addPasswordTextbox = document.getElementById('add-password')
 
     const item = {
-        isGlutenFree: false,
+        password: addPasswordTextbox.value.trim(),
         name: addNameTextbox.value.trim()
     };
 
@@ -45,7 +46,7 @@ function displayEditForm(id) {
 
     document.getElementById('edit-name').value = item.name;
     document.getElementById('edit-id').value = item.id;
-    document.getElementById('edit-isWoodMade').checked = item.isGlutenFree;
+    document.getElementById('password').value = item.password;
     document.getElementById('editForm').style.display = 'block';
 }
 
@@ -53,8 +54,9 @@ function updateItem() {
     const itemId = document.getElementById('edit-id').value;
     const item = {
         id: parseInt(itemId, 10),
-        isGlutenFree: document.getElementById('edit-isGlutenFree').checked,
-        name: document.getElementById('edit-name').value.trim()
+        name: document.getElementById('edit-name').value.trim(),
+        password: document.getElementById('password').value
+
     };
 
     fetch(`${uri}/${itemId}`, {
@@ -92,10 +94,10 @@ function _displayItems(data) {
     const button = document.createElement('button');
 
     data.forEach(item => {
-        let isGlutenFreeCheckbox = document.createElement('input');
-        isGlutenFreeCheckbox.type = 'checkbox';
-        isGlutenFreeCheckbox.disabled = true;
-        isGlutenFreeCheckbox.checked = item.isGlutenFree;
+        // let isGlutenFreeCheckbox = document.createElement('input');
+        // isGlutenFreeCheckbox.type = 'checkbox';
+        // isGlutenFreeCheckbox.disabled = true;
+        // isGlutenFreeCheckbox.checked = item.isGlutenFree;
 
         let editButton = button.cloneNode(false);
         editButton.innerText = 'Edit';
@@ -107,12 +109,19 @@ function _displayItems(data) {
 
         let tr = tBody.insertRow();
 
-        let td1 = tr.insertCell(0);
-        td1.appendChild(isGlutenFreeCheckbox);
+        //let td1 = tr.insertCell(0);
+       // td1.appendChild(isGlutenFreeCheckbox);
+
+
+        let td0 = tr.insertCell(0);
+        let textNode0 = document.createTextNode(item.password);
+        td0.appendChild(textNode0);
 
         let td2 = tr.insertCell(1);
         let textNode = document.createTextNode(item.name);
         td2.appendChild(textNode);
+
+        
 
         let td3 = tr.insertCell(2);
         td3.appendChild(editButton);
