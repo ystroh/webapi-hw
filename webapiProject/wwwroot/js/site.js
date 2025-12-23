@@ -10,9 +10,9 @@ function getItems() {
 
 function addItem() {
     const addNameTextbox = document.getElementById('add-name');
-
+    const woodMade = document.getElementById('woodMade');
     const item = {
-        IsWoodMade: false,
+        IsWoodMade: woodMade?woodMade.checked:false,
         name: addNameTextbox.value.trim()
     };
 
