@@ -1,0 +1,63 @@
+2026-03-10 21:30:27.113 +02:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-10 21:30:27.305 +02:00 [INF] Now listening on: https://localhost:7238
+2026-03-10 21:30:27.306 +02:00 [INF] Now listening on: http://localhost:5160
+2026-03-10 21:30:27.308 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-10 21:30:27.308 +02:00 [INF] Hosting environment: Development
+2026-03-10 21:30:27.308 +02:00 [INF] Content root path: C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj
+2026-03-10 21:32:14.961 +02:00 [INF] Application is shutting down...
+2026-03-10 21:34:54.773 +02:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-10 21:34:54.884 +02:00 [INF] Now listening on: https://localhost:7238
+2026-03-10 21:34:54.885 +02:00 [INF] Now listening on: http://localhost:5160
+2026-03-10 21:34:54.886 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-10 21:34:54.887 +02:00 [INF] Hosting environment: Development
+2026-03-10 21:34:54.887 +02:00 [INF] Content root path: c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj
+2026-03-10 21:35:19.712 +02:00 [INF] Application is shutting down...
+2026-03-10 21:35:24.383 +02:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-10 21:35:24.494 +02:00 [INF] Now listening on: https://localhost:7238
+2026-03-10 21:35:24.495 +02:00 [INF] Now listening on: http://localhost:5160
+2026-03-10 21:35:24.496 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-10 21:35:24.497 +02:00 [INF] Hosting environment: Development
+2026-03-10 21:35:24.497 +02:00 [INF] Content root path: c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj
+2026-03-10 21:35:50.631 +02:00 [INF] Application is shutting down...
+2026-03-10 21:35:55.142 +02:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-10 21:35:55.256 +02:00 [INF] Now listening on: https://localhost:7238
+2026-03-10 21:35:55.256 +02:00 [INF] Now listening on: http://localhost:5160
+2026-03-10 21:35:55.258 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-10 21:35:55.258 +02:00 [INF] Hosting environment: Development
+2026-03-10 21:35:55.258 +02:00 [INF] Content root path: c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj
+2026-03-10 21:38:35.215 +02:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-10 21:38:35.320 +02:00 [INF] Now listening on: https://localhost:7238
+2026-03-10 21:38:35.320 +02:00 [INF] Now listening on: http://localhost:5160
+2026-03-10 21:38:35.321 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-10 21:38:35.321 +02:00 [INF] Hosting environment: Development
+2026-03-10 21:38:35.322 +02:00 [INF] Content root path: c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj
+2026-03-10 21:40:48.021 +02:00 [INF] Application is shutting down...
+2026-03-10 21:41:01.171 +02:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-10 21:41:01.278 +02:00 [INF] Now listening on: https://localhost:7238
+2026-03-10 21:41:01.278 +02:00 [INF] Now listening on: http://localhost:5160
+2026-03-10 21:41:01.280 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-10 21:41:01.280 +02:00 [INF] Hosting environment: Development
+2026-03-10 21:41:01.280 +02:00 [INF] Content root path: c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj
+2026-03-10 21:45:09.319 +02:00 [INF] Application is shutting down...
+2026-03-10 21:46:02.347 +02:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-10 21:46:02.432 +02:00 [INF] Now listening on: https://localhost:7238
+2026-03-10 21:46:02.432 +02:00 [INF] Now listening on: http://localhost:5160
+2026-03-10 21:46:02.435 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-10 21:46:02.435 +02:00 [INF] Hosting environment: Development
+2026-03-10 21:46:02.435 +02:00 [INF] Content root path: c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj
+2026-03-10 21:47:12.003 +02:00 [INF] Application is shutting down...
+2026-03-10 21:47:16.676 +02:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-10 21:47:16.768 +02:00 [INF] Now listening on: https://localhost:7238
+2026-03-10 21:47:16.768 +02:00 [INF] Now listening on: http://localhost:5160
+2026-03-10 21:47:16.769 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-10 21:47:16.769 +02:00 [INF] Hosting environment: Development
+2026-03-10 21:47:16.769 +02:00 [INF] Content root path: c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj
+2026-03-10 21:54:12.561 +02:00 [INF] Application is shutting down...
+2026-03-10 21:54:25.388 +02:00 [INF] Starting the Music Shop Web API...
+2026-03-10 21:54:25.431 +02:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-10 21:54:25.497 +02:00 [INF] Now listening on: https://localhost:7238
+2026-03-10 21:54:25.497 +02:00 [INF] Now listening on: http://localhost:5160
+2026-03-10 21:54:25.498 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-10 21:54:25.499 +02:00 [INF] Hosting environment: Development
+2026-03-10 21:54:25.499 +02:00 [INF] Content root path: c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj
+2026-03-10 22:02:01.479 +02:00 [INF] Application is shutting down...

@@ -29,6 +29,9 @@ namespace TokenServices.Services;
                 ValidIssuer = issuer,
                 ValidAudience = issuer,
                 IssuerSigningKey = key,
+                // map role/name claim types so [Authorize(Roles="...")] works correctly
+                RoleClaimType = ClaimTypes.Role,
+                NameClaimType = ClaimTypes.Name,
                 ClockSkew = TimeSpan.Zero // remove delay of token when expire
             };
 

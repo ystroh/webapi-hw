@@ -5,46 +5,103 @@
     <meta charset="UTF-8">
     <title>Music CRUD</title>
     <link rel="stylesheet" href="css/site.css" />
-    <link rel="stylesheet" href="./users.html">
+        <link rel="stylesheet" href="css/theme.css" />
+    <style>
+        /* Toast container styling (small, unobtrusive) */
+        #toast-container {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            z-index: 10000;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            max-width: 320px;
+            pointer-events: none; /* allow clicks through unless on toast */
+        }
+        .toast-message {
+            pointer-events: auto;
+            background: rgba(0,0,0,0.85);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            font-size: 0.95rem;
+            word-break: break-word;
+        }
+        .toast-time {
+            display: block;
+            font-size: 0.75rem;
+            opacity: 0.8;
+            margin-top: 4px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Music CRUD</h1>
-    <h3>Add</h3>
-    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
-        <input type="text" id="add-name" placeholder="New music">
-        <input type="checkbox" id="add-woodMade" placeholder="isWoodMade">
-        <input type="submit" value="Add">
-    </form>
+    <div class="container">
+        <header class="header">
+            <a class="logo" href="./index.html">
+                <div class="badge" aria-hidden="true">♪</div>
+                <div>
+                    <div class="title">Harmony House</div>
+                    <div class="muted" style="font-size:0.85rem">חנות כלי נגינה — ניהול מלאי</div>
+                </div>
+            </a>
+            <nav>
+                <a id="users-link" href="./users.html" class="btn-white nav-link">Users</a>
+            </nav>
+        </header>
+        <h1 style="margin-bottom:0.25rem">גלריית כלי נגינה</h1>
+        <p class="muted" style="margin-top:0;margin-bottom:0.75rem">גלה, הוסף ונהל את מלאי הכלים — חיפושים מהירים, עדכונים בזמן אמת והתראות.</p>
+        <!-- Decorative floating notes for liveliness -->
+        <div aria-hidden="true" style="position:relative; height:0;">
+            <div class="floating-note" style="left:20%; top:8px;">♪</div>
+            <div class="floating-note" style="left:50%; top:2px; animation-delay:1.2s;">♬</div>
+            <div class="floating-note" style="left:80%; top:6px; animation-delay:2s;">♫</div>
+        </div>
+    <h3>הוספת כלי נגינה</h3>
+      <form action="javascript:void(0);" method="POST" onsubmit="addItem()" class="card" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+          <input type="text" id="add-name" placeholder="שם הכלי / דגם (למשל: גיטרה אקוסטית)" required style="flex:1">
+          <label style="display:flex;align-items:center;gap:8px;margin:0"><input type="checkbox" id="add-woodMade" placeholder="isWoodMade"> עשוי מעץ</label>
+          <input type="submit" value="הוסף כלי" class="btn-white">
+      </form>
 
-    <div id="editForm">
-        <h3>Edit</h3>
-        <form action="javascript:void(0);" onsubmit="updateItem()">
-            <input type="hidden" id="edit-id">
-            <input type="checkbox" id="edit-isWoodMade">
-            <input type="text" id="edit-name">
-            <input type="submit" value="Save">
-            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
-        </form>
-    </div>
+      <div id="editForm" class="card" style="display:none;margin-top:1rem;">
+          <h3>עריכת כלי נגינה</h3>
+          <form action="javascript:void(0);" onsubmit="updateItem()" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+              <input type="hidden" id="edit-id">
+              <label style="display:flex;align-items:center;gap:8px;margin:0"><input type="checkbox" id="edit-isWoodMade"> מעץ</label>
+              <input type="text" id="edit-name" style="flex:1">
+              <input type="submit" value="שמור" class="btn-gray">
+              <a onclick="closeInput()" aria-label="Close" style="margin-left:8px">&#10006;</a>
+          </form>
+      </div>
 
-    <p id="counter"></p>
+            <p id="counter" style="margin-top:0.75rem"></p>
 
-    <table>
-        <tr>
-            <th>Is Wood Made?</th>
-            <th>Name</th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tbody id="music"></tbody>
-    </table>
-<!-- try -->
-  <a href="./users.html">Users</a>
-    <!-- <h1>try</h1>  -->
+            <table aria-label="Music list">
+                    <thead>
+                                    <tr>
+                                        <th>אקוּסטי?</th>
+                                        <th>שם השיר / אמן</th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                    </thead>
+                    <tbody id="music"></tbody>
+            </table>
+
+            <div style="margin-top:1rem">
+                <a id="users-link" href="./users.html" class="btn-white">Users</a>
+            </div>
+        </div>
 
 
     <script src="js/site.js" asp-append-version="true"></script>
+    <!-- Persistent toast container (site.js will populate it) -->
+    <div id="toast-container" aria-live="polite" aria-atomic="true"></div>
+        <div class="footer-grad" aria-hidden="true"></div>
     <script type="text/javascript">
      
      isLogin();

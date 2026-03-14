@@ -1,115 +1,78 @@
-using Microsoft.AspNetCore.Mvc;
-using myUsers.Models;
-using System.Security.Cryptography.X509Certificates;
-using UsersService.interfaces;
-
-
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.IO;
-using System;
-using System.Net;
-using System.Text.Json;
-using Microsoft.AspNetCore.Hosting;
-namespace myUsers.Services;
+using Microsoft.Extensions.DependencyInjection;
+using Common.Repositories;
+using Common.Active;
+using myUsers.Models;
+using UsersService.interfaces;
 
-public class UsersService : IUsersServices
+namespace myUsers.Services
 {
-  
-
-     private List<Users> list;
- private IWebHostEnvironment  webHost;
-     private string filePath ;
-    public UsersService(IWebHostEnvironment webHost)
+    // שירות משתמשים שעובד מול IRepository<Users> ושיכול להשתמש ב‑IActiveUser לקבלת מידע על המשתמש הפעיל.
+    public class UsersService : IUsersServices
     {
-        // this.list = new List<Users>{
-        //      new Users { Id = 1, Name = "yehudit",password=1},
-        //      new Users { Id = 2, Name = "chaya",password=2},
-        //      new Users { Id = 3, Name = "elisheva",password=3},
-        //      new Users { Id = 4, Name = "nomi",password=4} 
-        // };
+        private readonly IRepository<Users> repo;
+        private readonly IActiveUser activeUser;
 
-         this.webHost = webHost;
-      
-
-
-           this.filePath = Path.Combine(webHost.ContentRootPath, "Data", "users.json");
-            using (var jsonFile = File.OpenText(filePath))
-            {
-                var content = jsonFile.ReadToEnd();
-                list = JsonSerializer.Deserialize<List<Users>>(content,
-                new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true
-                });
-            }
-    }
-   
-    private void saveToFile()
+        public UsersService(IRepository<Users> repo, IActiveUser activeUser)
         {
-            var text = JsonSerializer.Serialize(list);
-            File.WriteAllText(filePath, text);
+            this.repo = repo ?? throw new ArgumentNullException(nameof(repo));
+            this.activeUser = activeUser; // יכול להיות null במקרים מסוימים
         }
 
-    public List<Users> Get()
-    {
-        return list;
-    }
+        // מחזיר את כל המשתמשים
+        public List<Users> Get()
+        {
+            return repo.GetAll();
+        }
 
-    private Users find(int id)
-    {
-        return list.FirstOrDefault(p => p.Id == id);
+        private Users find(int id)
+        {
+            return repo.Get(id);
+        }
 
-    }
+        public Users Get(int id) => find(id);
 
-    public Users Get(int id) => find(id);
+        public Users Create(Users newUsers)
+        {
+            if (string.IsNullOrEmpty(newUsers.Mail))
+                newUsers.Mail = (newUsers.Name ?? "user") + "@example.com";
+            if (string.IsNullOrEmpty(newUsers.Role))
+                newUsers.Role = "User";
 
-    public Users Create(Users newUsers)
-    {
-        var maxId = list.Max(p => p.Id);
-        newUsers.Id = maxId + 1;
-        list.Add(newUsers);
-        saveToFile();
-        return newUsers;
-    }
+            return repo.Create(newUsers);
+        }
 
-    public int Update(int id, Users newUsers)
-    {
+        public int Update(int id, Users newUsers)
+        {
             var m = find(id);
-        if(m == null)
-          return 1;
+            if (m == null)
+                return 1;
 
-        if(m.Id != newUsers.Id)
-           return 2;
+            if (m.Id != newUsers.Id)
+                return 2;
 
-        var index = list.IndexOf(m);
-        list[index] = newUsers;
-saveToFile();
-        return 3;
-    }
+            if (string.IsNullOrEmpty(newUsers.Mail)) newUsers.Mail = m.Mail;
+            if (string.IsNullOrEmpty(newUsers.Role)) newUsers.Role = m.Role;
 
-   
-    public bool Delete(int id)
-    {
-         var m= find(id);
-        if(m==null)
-            return false;
-        list.Remove(m);
-        saveToFile();
-        return true;
-    }
-}
-    public static class UsersExtension{
-      public static void AddUsersService(this IServiceCollection services)
-        {
-            services.AddSingleton<IUsersServices, UsersService>();
-            //services.AddScope<IOrderManager, OrderManager>();
-            //services.AddTransient<IOrderSender, OrderSenderHttp>();            
+            return repo.Update(id, newUsers);
         }
 
+        public bool Delete(int id)
+        {
+            return repo.Delete(id);
+        }
+    }
 
-
-
+    public static class UsersExtension
+    {
+        // רישום פשוט של השירות ב‑DI (scoped)
+        public static void AddUsersService(this IServiceCollection services)
+        {
+            services.AddScoped<IUsersServices, UsersService>();
+        }
+    }
 }
 
 

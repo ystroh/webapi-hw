@@ -3,28 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Music CRUD</title>
+    <title>Harmony House — ניהול משתמשים</title>
     <link rel="stylesheet" href="css/site.css" />
-    <link rel="stylesheet" href="./js/users.js">
+        <link rel="stylesheet" href="css/theme.css" />
 </head>
 
 <body>
-    <h1>Users CRUD</h1>
-    <h3>Add</h3>
-    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
-        <input type="text" id="add-name" placeholder="New user">
-         <input type="password" id="add-password" placeholder="password">
-        <input type="submit" value="Add">
-   
+    <h1>ניהול משתמשים — Harmony House</h1>
+    <h3>הוספת משתמש חדש</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()" class="card" style="display:flex;flex-direction:column;gap:10px;max-width:520px;">
+        <input type="text" id="add-name" placeholder="שם משתמש" required>
+        <input type="email" id="add-mail" placeholder="דואר אלקטרוני" required>
+        <input type="password" id="add-password" placeholder="סיסמה" required>
+        <select id="add-role">
+            <option value="User">משתמש</option>
+            <option value="Admin">מנהל</option>
+        </select>
+        <input type="submit" value="הוספה" class="btn-white">
     </form>
 
     <div id="editForm">
-        <h3>Edit</h3>
+    <h3>עריכת משתמש</h3>
         <form action="javascript:void(0);" onsubmit="updateItem()">
             <input type="hidden" id="edit-id">
-            <input type="text" id="password">
-            <input type="text" id="edit-name">
-            <input type="submit" value="Save">
+            <label>שם</label>
+            <input type="text" id="edit-name" required>
+            <label>דואר אלקטרוני</label>
+            <input type="email" id="edit-mail">
+            <label>תפקיד</label>
+            <select id="edit-role">
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+            </select>
+            <label>סיסמה</label>
+            <input type="password" id="password">
+            <input type="submit" value="שמור" class="btn-gray">
             <a onclick="closeInput()" aria-label="Close">&#10006;</a>
         </form>
     </div>
@@ -33,14 +46,15 @@
 
     <table>
         <tr>
-            <th>password</th>
-            <th>Name</th>
+            <th>מייל</th>
+            <th>שם</th>
+            <th>תפקיד</th>
             <th></th>
             <th></th>
         </tr>
         <tbody id="music"></tbody>
     </table>
-
+   <a href="./index.html">music</a>
 
 
     <script src="./js/users.js" asp-append-version="true"></script>

@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using myMusic.Models;
 using System.Security.Cryptography.X509Certificates;
 using MusicService.interfaces;
-
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
@@ -16,20 +15,13 @@ public class MusicService : IMusicServices
 {
   
 
-    private List<Music> list;
+     private List<Music> list;
      private IWebHostEnvironment  webHost;
      private string filePath ;
 
     public MusicService(IWebHostEnvironment webHost)
     {
         this.webHost = webHost;
-        // this.list = new List<Music>{
-        //      new Music { Id = 1, Name = "guittar",IsWoodMade=true},
-        //      new Music { Id = 2, Name = "fiddle",IsWoodMade=true},
-        //      new Music { Id = 3, Name = "organ",IsWoodMade=true},
-        //      new Music { Id = 4, Name = "piano",IsWoodMade=false} 
-        // };
-
 
            this.filePath = Path.Combine(webHost.ContentRootPath, "Data", "music.json");
             using (var jsonFile = File.OpenText(filePath))

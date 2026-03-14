@@ -1,0 +1,4088 @@
+{
+  "StartTime": "2026-03-09T21:04:10.9274013+02:00",
+  "ControllerName": "Unknown",
+  "ActionName": "Unknown",
+  "UserName": "Anonymous",
+  "DurationMs": 40
+}
+{
+  "StartTime": "2026-03-09T21:04:11.0323282+02:00",
+  "ControllerName": "Unknown",
+  "ActionName": "Unknown",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:04:11.0322911+02:00",
+  "ControllerName": "Unknown",
+  "ActionName": "Unknown",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:04:11.5447186+02:00",
+  "ControllerName": "Unknown",
+  "ActionName": "Unknown",
+  "UserName": "Anonymous",
+  "DurationMs": 4
+}
+{
+  "StartTime": "2026-03-09T21:04:11.5019453+02:00",
+  "ControllerName": "Unknown",
+  "ActionName": "Unknown",
+  "UserName": "gfd",
+  "DurationMs": 98
+}
+{
+  "StartTime": "2026-03-09T21:04:11.4059632+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 243
+}
+{
+  "StartTime": "2026-03-09T21:04:14.1145716+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Delete",
+  "UserName": "gfd",
+  "DurationMs": 57
+}
+{
+  "StartTime": "2026-03-09T21:04:14.3621056+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 4
+}
+{
+  "StartTime": "2026-03-09T21:04:17.0393375+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Delete",
+  "UserName": "gfd",
+  "DurationMs": 9
+}
+{
+  "StartTime": "2026-03-09T21:04:17.0547895+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:04:31.6379981+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:04:31.368773+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Create",
+  "UserName": "gfd",
+  "DurationMs": 331
+}
+{
+  "StartTime": "2026-03-09T21:04:33.4192542+02:00",
+  "ControllerName": "Unknown",
+  "ActionName": "Unknown",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:04:33.4377015+02:00",
+  "ControllerName": "Unknown",
+  "ActionName": "Unknown",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:04:33.4503551+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 6
+}
+{
+  "StartTime": "2026-03-09T21:04:11.6136442+02:00",
+  "ControllerName": "Unknown",
+  "ActionName": "Unknown",
+  "UserName": "gfd",
+  "DurationMs": 21870
+}
+{
+  "StartTime": "2026-03-09T21:05:26.4452277+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Create",
+  "UserName": "gfd",
+  "DurationMs": 196
+}
+{
+  "StartTime": "2026-03-09T21:05:27.9879621+02:00",
+  "ControllerName": "Unknown",
+  "ActionName": "Unknown",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:05:28.0227521+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:05:28.0227102+02:00",
+  "ControllerName": "Unknown",
+  "ActionName": "Unknown",
+  "UserName": "gfd",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:05:28.0308902+02:00",
+  "ControllerName": "Unknown",
+  "ActionName": "Unknown",
+  "UserName": "gfd",
+  "DurationMs": 186974
+}
+{
+  "StartTime": "2026-03-09T21:15:11.1890727+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "gfd",
+  "DurationMs": 9
+}
+{
+  "StartTime": "2026-03-09T21:15:11.1904851+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 41
+}
+{
+  "StartTime": "2026-03-09T21:15:13.1028676+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Delete",
+  "UserName": "gfd",
+  "DurationMs": 41
+}
+{
+  "StartTime": "2026-03-09T21:15:13.1527171+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:15:43.663933+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Delete",
+  "UserName": "gfd",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:15:43.6750504+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:15:11.2121302+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "gfd",
+  "DurationMs": 298387
+}
+{
+  "StartTime": "2026-03-09T21:20:09.6018326+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "gfd",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:20:44.6311251+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "gfd",
+  "DurationMs": 11
+}
+{
+  "StartTime": "2026-03-09T21:20:44.6323546+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 47
+}
+{
+  "StartTime": "2026-03-09T21:20:47.239124+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 53
+}
+{
+  "StartTime": "2026-03-09T21:20:44.6580674+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "gfd",
+  "DurationMs": 2659
+}
+{
+  "StartTime": "2026-03-09T21:20:47.3213459+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:20:47.3390785+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:20:47.4052783+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "gfd",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:21:03.5563185+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "gfd",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:20:47.4104695+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "gfd",
+  "DurationMs": 31827
+}
+{
+  "StartTime": "2026-03-09T21:21:22.7427933+02:00",
+  "ControllerName": "/users.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 183
+}
+{
+  "StartTime": "2026-03-09T21:21:22.9621065+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 10
+}
+{
+  "StartTime": "2026-03-09T21:21:30.6308352+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "gfd",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:21:30.6686063+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 108
+}
+{
+  "StartTime": "2026-03-09T21:21:33.0725591+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 109
+}
+{
+  "StartTime": "2026-03-09T21:21:30.7144292+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "gfd",
+  "DurationMs": 2477
+}
+{
+  "StartTime": "2026-03-09T21:21:33.2130442+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "gfd",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:21:33.2131737+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:21:03.5681612+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "gfd",
+  "DurationMs": 32182
+}
+{
+  "StartTime": "2026-03-09T21:21:33.2209661+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "gfd",
+  "DurationMs": 2570
+}
+{
+  "StartTime": "2026-03-09T21:21:54.5458017+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 4
+}
+{
+  "StartTime": "2026-03-09T21:21:54.7782322+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:21:55.062287+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:21:55.0696186+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "gfd",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:21:59.9919105+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:21:59.8515179+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Create",
+  "UserName": "gfd",
+  "DurationMs": 198
+}
+{
+  "StartTime": "2026-03-09T21:21:55.0982536+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "gfd",
+  "DurationMs": 44284
+}
+{
+  "StartTime": "2026-03-09T21:22:45.6830543+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "gfd",
+  "DurationMs": 9
+}
+{
+  "StartTime": "2026-03-09T21:23:15.2290619+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 24
+}
+{
+  "StartTime": "2026-03-09T21:23:15.2850367+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:23:15.4130496+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "gfd",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:23:15.4066737+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 60
+}
+{
+  "StartTime": "2026-03-09T21:23:16.9899295+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "gfd",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:23:16.9908778+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "gfd",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:23:21.7241236+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:23:28.394262+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 5
+}
+{
+  "StartTime": "2026-03-09T21:23:17.0020348+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "gfd",
+  "DurationMs": 11447
+}
+{
+  "StartTime": "2026-03-09T21:23:28.4492627+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:23:28.4653276+02:00",
+  "ControllerName": "/login.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 15
+}
+{
+  "StartTime": "2026-03-09T21:23:28.5100356+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:23:28.5122735+02:00",
+  "ControllerName": "/js/login.js",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:23:46.6642605+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Login",
+  "UserName": "Anonymous",
+  "DurationMs": 133
+}
+{
+  "StartTime": "2026-03-09T21:24:10.9227604+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Login",
+  "UserName": "Anonymous",
+  "DurationMs": 50
+}
+{
+  "StartTime": "2026-03-09T21:24:11.0014545+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:24:11.0328776+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:24:11.035229+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:24:11.045581+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:24:11.046809+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:24:11.0535445+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 38193
+}
+{
+  "StartTime": "2026-03-09T21:22:45.7089271+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "gfd",
+  "DurationMs": 123538
+}
+{
+  "StartTime": "2026-03-09T21:24:49.2505118+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:23:15.4216455+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "gfd",
+  "DurationMs": 93829
+}
+{
+  "StartTime": "2026-03-09T21:25:36.8814136+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 24
+}
+{
+  "StartTime": "2026-03-09T21:25:36.93078+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 35
+}
+{
+  "StartTime": "2026-03-09T21:25:37.1835303+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 4
+}
+{
+  "StartTime": "2026-03-09T21:25:37.1869519+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 46
+}
+{
+  "StartTime": "2026-03-09T21:25:39.4701097+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:25:40.9946838+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:25:41.5585329+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:26:10.3808962+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:26:10.3821745+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:26:10.3822518+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:25:41.5699387+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 28812
+}
+{
+  "StartTime": "2026-03-09T21:25:39.4782366+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 30904
+}
+{
+  "StartTime": "2026-03-09T21:25:41.1009769+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 29281
+}
+{
+  "StartTime": "2026-03-09T21:25:37.1933297+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 33189
+}
+{
+  "StartTime": "2026-03-09T21:26:10.3849751+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:27:13.9254604+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 20
+}
+{
+  "StartTime": "2026-03-09T21:27:13.9742501+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 12
+}
+{
+  "StartTime": "2026-03-09T21:27:14.1880092+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:27:14.1903358+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 44
+}
+{
+  "StartTime": "2026-03-09T21:27:14.1966892+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 188779
+}
+{
+  "StartTime": "2026-03-09T21:31:24.7738333+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 120
+}
+{
+  "StartTime": "2026-03-09T21:31:24.9254868+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 35
+}
+{
+  "StartTime": "2026-03-09T21:31:25.1592423+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:31:25.162288+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 75
+}
+{
+  "StartTime": "2026-03-09T21:33:34.8578462+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 97
+}
+{
+  "StartTime": "2026-03-09T21:31:25.1680578+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 129802
+}
+{
+  "StartTime": "2026-03-09T21:33:34.9774156+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:33:35.0172157+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:33:35.0255155+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:34:49.5981971+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:33:35.0305689+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 74584
+}
+{
+  "StartTime": "2026-03-09T21:34:49.6301225+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 29
+}
+{
+  "StartTime": "2026-03-09T21:34:49.6728078+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:34:49.6707845+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-09T21:36:23.0760012+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 80
+}
+{
+  "StartTime": "2026-03-09T21:34:49.6813299+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 93484
+}
+{
+  "StartTime": "2026-03-09T21:36:23.1846392+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:36:23.194483+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:36:23.1951681+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:18.4581382+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:36:23.2045958+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 55333
+}
+{
+  "StartTime": "2026-03-09T21:37:18.5607272+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 28
+}
+{
+  "StartTime": "2026-03-09T21:37:18.6328264+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:18.6398428+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:19.4773882+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:37:18.6504118+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 837
+}
+{
+  "StartTime": "2026-03-09T21:37:19.5116911+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:19.5240485+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:19.5253275+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:20.1814481+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:19.5361296+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 652
+}
+{
+  "StartTime": "2026-03-09T21:37:20.2020828+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:20.2094069+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:20.2104983+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:20.3302022+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:37:20.2170459+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 122
+}
+{
+  "StartTime": "2026-03-09T21:37:20.3561873+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:20.364783+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:20.3654806+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:20.5103454+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:37:20.3713061+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 155
+}
+{
+  "StartTime": "2026-03-09T21:37:20.5498362+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:20.5511944+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:20.6719103+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:20.5620049+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 117
+}
+{
+  "StartTime": "2026-03-09T21:37:20.6920081+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:20.7012193+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:20.7013149+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:20.8300162+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:37:20.7078795+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 130
+}
+{
+  "StartTime": "2026-03-09T21:37:20.8601242+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:37:20.8712383+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:20.8744082+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:21.0492166+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:37:20.8828179+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 176
+}
+{
+  "StartTime": "2026-03-09T21:37:21.0868912+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:21.0960651+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:21.0991596+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:38.6332627+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:37:21.1093793+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 17539
+}
+{
+  "StartTime": "2026-03-09T21:37:38.6769401+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:38.6862174+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:38.6870355+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:39.4115726+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:37:38.6966891+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 728
+}
+{
+  "StartTime": "2026-03-09T21:37:39.4413918+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:39.4619681+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:39.563865+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:37:39.4466885+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 193
+}
+{
+  "StartTime": "2026-03-09T21:37:39.6750139+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:39.7407464+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:39.8162244+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:37:39.7091762+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 118
+}
+{
+  "StartTime": "2026-03-09T21:37:39.859239+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:39.8593046+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:39.9288844+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:39.8646102+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 70
+}
+{
+  "StartTime": "2026-03-09T21:37:39.950543+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:39.9529311+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:39.9562638+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 4704
+}
+{
+  "StartTime": "2026-03-09T21:37:50.8499715+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 8
+}
+{
+  "StartTime": "2026-03-09T21:37:53.9397522+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 15
+}
+{
+  "StartTime": "2026-03-09T21:37:53.9724845+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:37:54.0605663+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:54.0583588+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 37
+}
+{
+  "StartTime": "2026-03-09T21:37:56.2374978+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-09T21:37:54.0695152+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 2272
+}
+{
+  "StartTime": "2026-03-09T21:37:56.3603714+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:56.3937411+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:37:57.0161888+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:37:56.3717144+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 656
+}
+{
+  "StartTime": "2026-03-09T21:37:57.0446526+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:57.0587414+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:57.0603309+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-09T21:37:57.2372238+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:37:57.0699067+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 178
+}
+{
+  "StartTime": "2026-03-09T21:37:57.2754185+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:57.2760825+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:38:13.0505801+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:37:57.2834192+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 15857
+}
+{
+  "StartTime": "2026-03-09T21:38:13.2152077+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:38:13.2510851+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:38:13.2770261+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:38:13.5643495+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:38:13.2736561+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 304
+}
+{
+  "StartTime": "2026-03-09T21:38:13.6066918+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:38:13.6068261+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:38:14.057865+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:38:13.6161706+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 453
+}
+{
+  "StartTime": "2026-03-09T21:38:14.0971426+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:38:14.098324+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:38:14.2399197+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:38:14.1047694+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 149
+}
+{
+  "StartTime": "2026-03-09T21:38:14.2838303+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:38:14.2842099+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:38:14.4792256+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:38:14.2931586+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 272
+}
+{
+  "StartTime": "2026-03-09T21:38:14.5843139+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:38:14.6473157+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:38:14.589564+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 53612
+}
+{
+  "StartTime": "2026-03-09T21:37:50.8697769+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 77332
+}
+{
+  "StartTime": "2026-03-09T21:39:14.8196845+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 9
+}
+{
+  "StartTime": "2026-03-09T21:39:14.8197741+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 9
+}
+{
+  "StartTime": "2026-03-09T21:39:20.3517734+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 14
+}
+{
+  "StartTime": "2026-03-09T21:39:20.3935921+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:39:20.4623385+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:39:20.4505398+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 40
+}
+{
+  "StartTime": "2026-03-09T21:39:25.070608+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 4
+}
+{
+  "StartTime": "2026-03-09T21:39:20.4689052+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 4622
+}
+{
+  "StartTime": "2026-03-09T21:39:25.1004759+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:39:25.1026299+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:39:28.3301056+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:39:28.3880273+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:40:46.8497364+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 28
+}
+{
+  "StartTime": "2026-03-09T21:39:28.3939465+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 78594
+}
+{
+  "StartTime": "2026-03-09T21:40:47.0337327+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 33
+}
+{
+  "StartTime": "2026-03-09T21:40:47.126853+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:40:47.1775362+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:41:47.6582567+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:40:47.1915514+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 60573
+}
+{
+  "StartTime": "2026-03-09T21:41:47.7994948+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 46
+}
+{
+  "StartTime": "2026-03-09T21:41:47.8514349+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:41:47.8562405+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:41:49.9275031+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:41:47.8626055+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 2075
+}
+{
+  "StartTime": "2026-03-09T21:41:49.9533091+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:41:49.9605223+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:41:49.960656+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:39:14.8390796+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 279578
+}
+{
+  "StartTime": "2026-03-09T21:41:49.9661886+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 124451
+}
+{
+  "StartTime": "2026-03-09T21:39:14.8390807+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 279579
+}
+{
+  "StartTime": "2026-03-09T21:39:25.1048163+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 269316
+}
+{
+  "StartTime": "2026-03-09T21:44:00.4436662+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 10
+}
+{
+  "StartTime": "2026-03-09T21:44:00.5593397+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:44:00.559109+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:44:00.5591967+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:44:09.8027815+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 12
+}
+{
+  "StartTime": "2026-03-09T21:44:09.8398509+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:44:09.947732+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:44:09.9524851+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 30
+}
+{
+  "StartTime": "2026-03-09T21:44:11.7607191+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 5
+}
+{
+  "StartTime": "2026-03-09T21:44:09.954408+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 1845
+}
+{
+  "StartTime": "2026-03-09T21:44:11.8070419+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:44:11.8101775+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:44:16.2763985+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:45:27.3886952+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:44:11.8187194+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 75591
+}
+{
+  "StartTime": "2026-03-09T21:45:27.4320495+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:45:27.4340806+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:45:27.4593615+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:45:27.4592235+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:46:45.3392036+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-09T21:46:45.3974061+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:46:45.5079487+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:46:45.5162561+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:46:50.2330961+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:46:59.1014508+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-09T21:46:45.5229934+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 13595
+}
+{
+  "StartTime": "2026-03-09T21:46:59.1514084+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:46:59.1690104+02:00",
+  "ControllerName": "/login.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 96
+}
+{
+  "StartTime": "2026-03-09T21:46:59.3055881+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:47:10.3787825+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Login",
+  "UserName": "Anonymous",
+  "DurationMs": 127
+}
+{
+  "StartTime": "2026-03-09T21:47:10.5239135+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 17
+}
+{
+  "StartTime": "2026-03-09T21:47:10.5702376+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:47:10.5822522+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:47:10.5827686+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 88
+}
+{
+  "StartTime": "2026-03-09T21:44:00.569274+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 817577
+}
+{
+  "StartTime": "2026-03-09T21:44:00.5338419+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 817612
+}
+{
+  "StartTime": "2026-03-09T21:44:00.5694068+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 817577
+}
+{
+  "StartTime": "2026-03-09T21:47:10.6822439+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 627464
+}
+{
+  "StartTime": "2026-03-09T21:44:00.5685345+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 817578
+}
+{
+  "StartTime": "2026-03-09T21:45:27.4675989+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 730682
+}
+{
+  "StartTime": "2026-03-09T21:57:45.083128+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 10
+}
+{
+  "StartTime": "2026-03-09T21:57:45.0831186+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 10
+}
+{
+  "StartTime": "2026-03-09T21:57:45.0831877+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 10
+}
+{
+  "StartTime": "2026-03-09T21:57:45.0831592+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 10
+}
+{
+  "StartTime": "2026-03-09T21:57:45.0831393+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 10
+}
+{
+  "StartTime": "2026-03-09T21:57:45.083184+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 10
+}
+{
+  "StartTime": "2026-03-09T21:57:57.1516673+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 21
+}
+{
+  "StartTime": "2026-03-09T21:57:57.2125924+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-09T21:57:57.3164213+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:57:57.3059652+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 35
+}
+{
+  "StartTime": "2026-03-09T21:58:02.9878419+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 5
+}
+{
+  "StartTime": "2026-03-09T21:59:02.8002829+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:59:02.8718849+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:57:45.1097942+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 77767
+}
+{
+  "StartTime": "2026-03-09T21:59:02.8970001+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:59:02.902157+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 5
+}
+{
+  "StartTime": "2026-03-09T21:59:02.9395766+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:59:04.5810916+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T21:59:02.9069898+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 1693
+}
+{
+  "StartTime": "2026-03-09T21:59:04.617277+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T21:59:04.6430299+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T21:59:04.6427427+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-09T21:57:45.1097949+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 261525
+}
+{
+  "StartTime": "2026-03-09T21:57:45.1098009+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 261525
+}
+{
+  "StartTime": "2026-03-09T21:57:57.3253674+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 249310
+}
+{
+  "StartTime": "2026-03-09T21:57:45.1097877+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 261526
+}
+{
+  "StartTime": "2026-03-09T21:59:04.6550196+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 181980
+}
+{
+  "StartTime": "2026-03-09T21:57:45.1097907+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 261526
+}
+{
+  "StartTime": "2026-03-09T21:57:45.1097897+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 261526
+}
+{
+  "StartTime": "2026-03-09T22:06:40.0801073+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 25
+}
+{
+  "StartTime": "2026-03-09T22:06:40.1354506+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:06:40.2825474+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T22:06:40.2844284+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 32
+}
+{
+  "StartTime": "2026-03-09T22:06:47.3330247+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T22:09:22.4836119+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:06:40.2914429+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 162264
+}
+{
+  "StartTime": "2026-03-09T22:09:22.560718+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:09:22.5892157+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:09:22.629939+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:09:22.6328096+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:14:37.9042275+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:14:38.0509769+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:14:38.0522726+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:09:22.6395148+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 315467
+}
+{
+  "StartTime": "2026-03-09T22:14:38.1327058+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:14:38.1402445+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:14:38.1764812+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 3817
+}
+{
+  "StartTime": "2026-03-09T22:17:11.8303759+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 7
+}
+{
+  "StartTime": "2026-03-09T22:17:11.8314791+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 30
+}
+{
+  "StartTime": "2026-03-09T22:17:14.8915541+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T22:17:11.8462955+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 5964
+}
+{
+  "StartTime": "2026-03-09T22:18:29.3063295+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 26
+}
+{
+  "StartTime": "2026-03-09T22:18:29.4216264+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:18:29.5790317+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T22:18:29.5810862+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 44
+}
+{
+  "StartTime": "2026-03-09T22:18:32.3753109+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T22:21:59.483241+02:00",
+  "ControllerName": "/users.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 546
+}
+{
+  "StartTime": "2026-03-09T22:22:00.080566+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 9
+}
+{
+  "StartTime": "2026-03-09T22:23:21.398583+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:18:29.5869324+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 291824
+}
+{
+  "StartTime": "2026-03-09T22:23:21.404032+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 12261
+}
+{
+  "StartTime": "2026-03-09T22:24:44.2099041+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 19
+}
+{
+  "StartTime": "2026-03-09T22:24:44.2640995+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T22:24:44.3714047+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T22:24:44.3735699+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 25
+}
+{
+  "StartTime": "2026-03-09T22:24:50.399307+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:25:14.3009122+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 10
+}
+{
+  "StartTime": "2026-03-09T22:24:44.3806574+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 29967
+}
+{
+  "StartTime": "2026-03-09T22:25:14.3590752+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:25:14.3641728+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-09T22:25:14.3809055+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:27:08.0721+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:25:14.3912008+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 113698
+}
+{
+  "StartTime": "2026-03-09T22:27:08.1049994+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:27:08.1165652+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:27:08.1255461+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:27:09.3183014+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:27:08.132614+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 1202
+}
+{
+  "StartTime": "2026-03-09T22:27:09.358359+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:27:09.3715249+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:27:09.3818227+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:27:09.3910688+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 20331
+}
+{
+  "StartTime": "2026-03-09T22:28:06.2389265+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 489
+}
+{
+  "StartTime": "2026-03-09T22:28:06.919144+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T22:28:06.9212009+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 32
+}
+{
+  "StartTime": "2026-03-09T22:28:09.9840793+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 6
+}
+{
+  "StartTime": "2026-03-09T22:28:10.0862014+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:28:10.0876396+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:28:13.1332822+02:00",
+  "ControllerName": "/users.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:28:10.0946522+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 3096
+}
+{
+  "StartTime": "2026-03-09T22:28:13.1879039+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 14
+}
+{
+  "StartTime": "2026-03-09T22:29:40.2341208+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:29:40.2390778+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 2933
+}
+{
+  "StartTime": "2026-03-09T22:30:19.7755186+02:00",
+  "ControllerName": "/users.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:30:19.8331303+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 52
+}
+{
+  "StartTime": "2026-03-09T22:30:19.9250937+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:28:06.9280999+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 137502
+}
+{
+  "StartTime": "2026-03-09T22:30:24.4364353+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:30:51.7271518+02:00",
+  "ControllerName": "/users.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 11
+}
+{
+  "StartTime": "2026-03-09T22:30:51.7620897+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:30:51.855127+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 24
+}
+{
+  "StartTime": "2026-03-09T22:30:54.9803092+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 86
+}
+{
+  "StartTime": "2026-03-09T22:30:55.0797794+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:30:55.1679262+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 4
+}
+{
+  "StartTime": "2026-03-09T22:30:55.177328+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-09T22:31:15.5607377+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:31:15.5652803+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 101645
+}
+{
+  "StartTime": "2026-03-09T22:30:55.1988686+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 122013
+}
+{
+  "StartTime": "2026-03-09T22:32:57.2166405+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:32:57.2376928+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 29869
+}
+{
+  "StartTime": "2026-03-09T22:33:44.0186393+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 7
+}
+{
+  "StartTime": "2026-03-09T22:33:49.4489284+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 28
+}
+{
+  "StartTime": "2026-03-09T22:33:49.6603141+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 36
+}
+{
+  "StartTime": "2026-03-09T22:33:49.7253857+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 25
+}
+{
+  "StartTime": "2026-03-09T22:33:49.797555+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:21.8955638+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Delete",
+  "UserName": "admin",
+  "DurationMs": 57
+}
+{
+  "StartTime": "2026-03-09T22:36:21.9586895+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 4
+}
+{
+  "StartTime": "2026-03-09T22:36:21.9678107+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:22.7709701+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Delete",
+  "UserName": "admin",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-09T22:36:22.7772143+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:22.7817763+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:23.835277+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Delete",
+  "UserName": "admin",
+  "DurationMs": 103
+}
+{
+  "StartTime": "2026-03-09T22:36:23.9768438+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:23.9848357+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 6
+}
+{
+  "StartTime": "2026-03-09T22:36:24.7271165+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Delete",
+  "UserName": "admin",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T22:36:24.7368178+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:24.7428982+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:25.5114218+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Delete",
+  "UserName": "admin",
+  "DurationMs": 27
+}
+{
+  "StartTime": "2026-03-09T22:36:25.5471468+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:25.5615929+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:26.5527228+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Delete",
+  "UserName": "admin",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-09T22:36:26.5625805+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:26.5694788+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:38.2310288+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 67
+}
+{
+  "StartTime": "2026-03-09T22:36:38.3448994+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 91
+}
+{
+  "StartTime": "2026-03-09T22:36:38.4497371+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:38.4505414+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:33:49.8100054+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 168672
+}
+{
+  "StartTime": "2026-03-09T22:36:41.6365423+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-09T22:36:38.4582557+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 3199
+}
+{
+  "StartTime": "2026-03-09T22:36:41.6651594+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:41.6723167+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:41.6726453+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:42.5100129+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 21
+}
+{
+  "StartTime": "2026-03-09T22:36:41.6788523+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 923
+}
+{
+  "StartTime": "2026-03-09T22:36:42.6015265+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:42.6418063+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:42.6675118+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:36:42.6409335+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 78
+}
+{
+  "StartTime": "2026-03-09T22:36:42.731784+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T22:36:42.7376533+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:42.7546678+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:42.7549434+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:42.8237712+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:36:42.7661418+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 63
+}
+{
+  "StartTime": "2026-03-09T22:36:42.8419407+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:42.8498699+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:42.8503893+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:43.0426236+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:36:42.8530758+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 194
+}
+{
+  "StartTime": "2026-03-09T22:36:43.0584856+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:43.0665196+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:43.0671679+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:55.0133861+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:43.0708569+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 11947
+}
+{
+  "StartTime": "2026-03-09T22:36:55.0291195+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 10
+}
+{
+  "StartTime": "2026-03-09T22:36:55.0475807+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:55.0475896+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:55.6884645+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:55.0514921+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 741
+}
+{
+  "StartTime": "2026-03-09T22:36:55.8378705+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:55.8601163+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:55.8849652+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:57.5089064+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:36:55.8639624+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 1653
+}
+{
+  "StartTime": "2026-03-09T22:36:57.5291974+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:57.535867+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:57.5361038+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:37:12.4846691+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:37:12.4879824+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:37:12.4530389+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Create",
+  "UserName": "admin",
+  "DurationMs": 74
+}
+{
+  "StartTime": "2026-03-09T22:37:21.0959183+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Update",
+  "UserName": "admin",
+  "DurationMs": 13
+}
+{
+  "StartTime": "2026-03-09T22:37:21.1148218+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:37:21.1177423+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:37:29.547398+02:00",
+  "ControllerName": "/users.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:36:57.5421173+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 32029
+}
+{
+  "StartTime": "2026-03-09T22:37:29.5732349+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:37:29.5847841+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 14
+}
+{
+  "StartTime": "2026-03-09T22:33:44.0336598+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 231228
+}
+{
+  "StartTime": "2026-03-09T22:37:35.2648159+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:37:35.2795533+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 29973
+}
+{
+  "StartTime": "2026-03-09T22:38:54.9609844+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 6
+}
+{
+  "StartTime": "2026-03-09T22:39:00.3243257+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 21
+}
+{
+  "StartTime": "2026-03-09T22:39:00.407001+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-09T22:39:00.6426766+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 26
+}
+{
+  "StartTime": "2026-03-09T22:39:00.7375818+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:40:16.2273417+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 6
+}
+{
+  "StartTime": "2026-03-09T22:39:00.7492192+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 75515
+}
+{
+  "StartTime": "2026-03-09T22:40:16.2700918+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:40:16.291064+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:40:16.2947479+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T22:41:55.352585+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-09T22:41:55.377961+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:41:55.3779611+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-09T22:41:55.3907313+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-09T22:41:55.3937729+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-09T22:41:55.4326445+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 10472
+}
+{
+  "StartTime": "2026-03-09T22:38:54.9783257+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 196433
+}
+{
+  "StartTime": "2026-03-09T22:40:16.3022243+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 115110
+}
+{
+  "StartTime": "2026-03-10T07:37:38.0508403+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-10T07:37:38.0507907+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-10T07:37:38.1395432+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 465737
+}
+{
+  "StartTime": "2026-03-10T07:37:38.1400704+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 468753
+}
+{
+  "StartTime": "2026-03-10T20:12:25.3019157+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 36
+}
+{
+  "StartTime": "2026-03-10T20:12:25.3812194+02:00",
+  "ControllerName": "/css/theme.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-10T20:12:25.377262+02:00",
+  "ControllerName": "/css/site.css",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 37
+}
+{
+  "StartTime": "2026-03-10T20:12:25.3813251+02:00",
+  "ControllerName": "/js/site.js",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 115
+}
+{
+  "StartTime": "2026-03-10T20:12:25.9998182+02:00",
+  "ControllerName": "/favicon.ico",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-10T20:12:26.1221656+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 5
+}
+{
+  "StartTime": "2026-03-10T20:12:26.1251596+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 55
+}
+{
+  "StartTime": "2026-03-10T20:12:26.125148+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Me",
+  "UserName": "admin",
+  "DurationMs": 57
+}
+{
+  "StartTime": "2026-03-10T20:13:02.1805654+02:00",
+  "ControllerName": "/users.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-10T20:13:02.2085904+02:00",
+  "ControllerName": "/js/users.js",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-10T20:13:02.2279854+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 15
+}
+{
+  "StartTime": "2026-03-10T20:12:26.1377436+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 36114
+}
+{
+  "StartTime": "2026-03-10T20:13:12.4947896+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-10T20:14:12.4372748+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-10T20:14:44.412931+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-10T20:13:12.5022465+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 91934
+}
+{
+  "StartTime": "2026-03-10T20:14:44.4675243+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-10T20:14:44.4799513+02:00",
+  "ControllerName": "/login.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-10T20:14:44.5088521+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-10T20:14:44.5113142+02:00",
+  "ControllerName": "/js/login.js",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-10T20:15:23.3365966+02:00",
+  "ControllerName": "/login.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 81
+}
+{
+  "StartTime": "2026-03-10T20:15:23.4590177+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-10T20:15:49.7010704+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Login",
+  "UserName": "Anonymous",
+  "DurationMs": 104
+}
+{
+  "StartTime": "2026-03-10T20:15:53.1129625+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Login",
+  "UserName": "Anonymous",
+  "DurationMs": 38
+}
+{
+  "StartTime": "2026-03-10T20:15:53.1664905+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 101
+}
+{
+  "StartTime": "2026-03-10T20:15:53.3009311+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-10T20:15:53.3111346+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-10T20:15:53.3111369+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Me",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-10T20:15:53.3215213+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-10T20:16:13.6865944+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-10T20:15:53.3676748+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 20351
+}
+{
+  "StartTime": "2026-03-10T20:16:13.7319059+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-10T20:16:13.7493882+02:00",
+  "ControllerName": "/login.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-10T20:16:13.7845454+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-10T22:02:09.8924742+02:00",
+  "ControllerName": "/favicon.ico",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-10T22:02:16.5583321+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Login",
+  "UserName": "Anonymous",
+  "DurationMs": 238
+}
+{
+  "StartTime": "2026-03-10T22:02:16.8718336+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 15
+}
+{
+  "StartTime": "2026-03-10T22:02:16.8746207+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Me",
+  "UserName": "admin",
+  "DurationMs": 25
+}
+{
+  "StartTime": "2026-03-10T22:02:16.8746207+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 26
+}
+{
+  "StartTime": "2026-03-10T22:02:31.3986774+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 55
+}
+{
+  "StartTime": "2026-03-10T22:02:44.3061798+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-10T22:02:16.8939821+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 27427
+}
+{
+  "StartTime": "2026-03-10T22:02:44.3320824+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-10T22:08:18.9207227+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-10T22:10:47.127856+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Login",
+  "UserName": "Anonymous",
+  "DurationMs": 81
+}
+{
+  "StartTime": "2026-03-10T22:16:39.4611549+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-10T22:16:40.1856574+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-10T22:17:49.7313541+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-10T22:17:52.4935591+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-10T22:20:29.1826138+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Login",
+  "UserName": "Anonymous",
+  "DurationMs": 83
+}
+{
+  "StartTime": "2026-03-11T19:59:38.9469142+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T19:59:58.7509641+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-11T20:00:01.3942589+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:00:02.9042239+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:00:03.0706715+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:00:03.2797814+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:00:03.7737031+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:00:03.9348913+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:00:04.1407509+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:00:04.3594411+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:00:28.05927+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-11T20:00:30.5574427+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:00:35.1872989+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:00:36.4286926+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:38:57.1565461+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-11T20:39:02.2683248+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:39:03.9825144+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:39:04.9040874+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:39:05.2971132+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:39:45.8492469+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-11T20:39:51.2844456+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:40:02.0757614+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:40:03.9172694+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:40:04.7060911+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:40:04.8948871+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:40:05.0863941+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-11T20:40:05.297509+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-14T19:18:05.83892+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 3
+}
+{
+  "StartTime": "2026-03-14T19:18:11.9566509+02:00",
+  "ControllerName": "/index.html",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}

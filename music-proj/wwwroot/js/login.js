@@ -1,54 +1,27 @@
 const uri = '/Users/Login';
-let id=0;
 
-document.getElementById('myForm').addEventListener('submit', function(event) {
-    event.preventDefault()
-    myFunction();
+document.addEventListener('DOMContentLoaded', function() {
+    const loginForm = document.getElementById('myForm');
+    
+    if (loginForm) {
+        loginForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            performLogin();
+        });
+    }
 });
 
-// function myFunction() {
+function performLogin() {
+    const nameElement = document.getElementById("name");
+    const passwordElement = document.getElementById("password");
+    const msgElement = document.getElementById('msg');
 
-
-//     id+=1;
-//     const name = document.getElementById("name").value;
-//     const password = document.getElementById("password").value;
-//     const usr={
-//         Id:id,
-//         Name:name,
-//         password:password
-    
-//     };
-
-//   fetch(uri, {
-//             method: 'POST',
-//             headers: {
-//                 'Accept': 'application/json',
-//                 'Content-Type': 'application/json'
-//             },
-//             body: JSON.stringify(usr)
-//         })
-//         .then(res=>res.json())
-//         .then(data=>{
-//             localStorage.setItem("Token",data)
-//         }) 
-//         .catch(error => console.error('Unable to add item.', error));
-
-//       const currentUrl = window.location.href; // מקבל את ה-URL הנוכחי
-//         const newUrl = currentUrl.substring(0, currentUrl.lastIndexOf('/')); // מסיר את הקטע האחרון
-//         window.location.href = newUrl+'/index.html'; // מבצע את ה-redirect
-
-//    }
-
-function myFunction() {
-
-    id += 1;
-    const name = document.getElementById("name").value;
-    const password = document.getElementById("password").value;
     const usr = {
-        Id: id,
-        Name: name,
-        password: password
+        Name: nameElement.value,
+        password: Number(passwordElement.value)
     };
+
+    console.log("DEBUG: מנסה להתחבר עם:", usr.Name);
 
     fetch(uri, {
         method: 'POST',
@@ -58,25 +31,21 @@ function myFunction() {
         },
         body: JSON.stringify(usr)
     })
-    .then(res => res.json())
+    .then(res => {
+        if (!res.ok) {
+            if (res.status === 401) throw new Error('שם משתמש או סיסמה שגויים');
+            throw new Error('שגיאת שרת');
+        }
+        return res.json();
+    })
     .then(data => {
-        localStorage.setItem("Token", data.token); // נניח שה-token נמצא בשדה token
-        const currentUrl = window.location.href; 
-        const newUrl = currentUrl.substring(0, currentUrl.lastIndexOf('/')); 
-        window.location.href = newUrl + '/index.html'; // מבצע את ה-redirect
-    }) 
-    .catch(error => console.error('Unable to add item.', error));
+        // שמירת ה-Token שהתקבל מהשרת
+        localStorage.setItem("Token", data);
+        console.log("DEBUG: התחברת בהצלחה, מעביר לדף הבית");
+        window.location.href = 'index.html';
+    })
+    .catch(error => {
+        console.error('Login failed.', error);
+        msgElement.innerText = error.message || 'שגיאת התחברות – בדקי שם וסיסמה';
+    });
 }
-
-
-
-
-
-
-
-
- 
-
-
-
-

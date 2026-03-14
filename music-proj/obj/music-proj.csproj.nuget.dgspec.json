@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\יד תשפו\\סטרו יהודית\\dotnet\\נסיון\\music-proj\\music-proj.csproj": {}
+    "c:\\Users\\user1\\Documents\\יהודית\\תכנות שנה ב\\webapi\\webapi-hw\\music-proj\\music-proj.csproj": {}
   },
   "projects": {
-    "Z:\\יד תשפו\\סטרו יהודית\\dotnet\\נסיון\\music-proj\\music-proj.csproj": {
+    "c:\\Users\\user1\\Documents\\יהודית\\תכנות שנה ב\\webapi\\webapi-hw\\music-proj\\music-proj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\יד תשפו\\סטרו יהודית\\dotnet\\נסיון\\music-proj\\music-proj.csproj",
+        "projectUniqueName": "c:\\Users\\user1\\Documents\\יהודית\\תכנות שנה ב\\webapi\\webapi-hw\\music-proj\\music-proj.csproj",
         "projectName": "music-proj",
-        "projectPath": "Z:\\יד תשפו\\סטרו יהודית\\dotnet\\נסיון\\music-proj\\music-proj.csproj",
-        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\יד תשפו\\סטרו יהודית\\dotnet\\נסיון\\music-proj\\obj\\",
+        "projectPath": "c:\\Users\\user1\\Documents\\יהודית\\תכנות שנה ב\\webapi\\webapi-hw\\music-proj\\music-proj.csproj",
+        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\user1\\Documents\\יהודית\\תכנות שנה ב\\webapi\\webapi-hw\\music-proj\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,7 +25,8 @@
           "net9.0"
         ],
         "sources": {
-          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,12 +45,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.4, )"
@@ -61,6 +66,14 @@
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[6.9.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -82,6 +95,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -90,7 +121,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

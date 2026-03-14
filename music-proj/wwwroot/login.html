@@ -1,20 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
+    <title>Login - Harmony House</title>
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <style>
+        .btn-google {
+            background-color: #ffffff;
+            color: #757575;
+            border: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+            cursor: pointer;
+            width: 100%;
+            padding: 10px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .btn-google:hover {
+            background-color: #f1f1f1;
+        }
+        .btn-google img {
+            width: 20px;
+        }
+    </style>
 </head>
 <body>
+<div class="container page-center" style="min-height:calc(100vh - 4rem);display:flex;align-items:center;justify-content:center;">
+  <form id="myForm" class="card" style="width:100%;max-width:520px;margin:1rem;padding:2rem;">
+    <h2 style="margin-top:0;margin-bottom:0.5rem">כניסה לחנות Harmony House</h2>
+    
+    <input type="text" placeholder="שם משתמש" id="name" required>
+    <input type="password" placeholder="הכנס את הסיסמה שלך" id="password" required>
+    
+    <button type="submit" class="btn-white">התחבר</button>
 
-<form action="" id="myForm">
-    <input type="text" placeholder="name" id="name">
-    <input type="number" placeholder="password" id="password">
-    <button type="submit">login</button>
-</form>
+    <a href="/Users/login-google" class="btn-google">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Logo">
+        התחבר עם Google
+    </a>
 
-
+    <p id="msg" style="color:red; margin-top: 10px;"></p>
+  </form>
+</div>
 
     <script src="js/login.js"></script>
 </body>

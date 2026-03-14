@@ -1,0 +1,150 @@
+/* Modern & Trendy UI theme - Dark Mode
+   - Primary: Turquoise, Secondary: Pink/Magenta
+   - Dark elegant background with vibrant accents
+*/
+:root{
+  --primary: #16b5a1; /* turquoise */
+  --secondary: #ff2d95; /* magenta/pink */
+  --bg-grad: linear-gradient(135deg,var(--primary),var(--secondary));
+  --surface: rgba(255,255,255,0.04);
+  --glass: rgba(255,255,255,0.06);
+  --text-light: #ffffff; /* white text on dark bg */
+  --muted: #a0a0a0;
+  --card-radius: 16px;
+}
+
+/* Base reset and layout: dark gradient background */
+html,body{height:100%;margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); color: var(--text-light)}
+body{display:flex;flex-direction:column;align-items:center;gap:1.5rem;padding:2rem;background-attachment: fixed}
+
+.header{
+  width:100%;max-width:1100px;display:flex;align-items:center;justify-content:space-between;gap:1rem
+}
+.logo{
+  display:flex;align-items:center;gap:0.75rem;color:white;text-decoration:none
+}
+.logo .badge{width:48px;height:48px;border-radius:12px;background:var(--bg-grad);display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(22,181,161,0.2);font-weight:700}
+.title{font-size:1.25rem;font-weight:700;color:white}
+
+/* Animated badge and little floating notes for 'חיות' */
+.logo .badge{font-size:1.25rem;color:#fff;animation:badge-bounce 3s ease-in-out infinite}
+.logo .badge::after{content:'';position:absolute;width:48px;height:48px;border-radius:12px;filter:blur(8px);opacity:0.15}
+@keyframes badge-bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+
+.nav-link{margin-left:12px}
+
+/* Floating musical notes decoration - more lively */
+.floating-note{position:absolute;pointer-events:none;opacity:0.2;font-size:2rem;transform-origin:center;animation:float-up 8s ease-in-out infinite}
+@keyframes float-up{0%{transform:translateY(10px) scale(.8) rotate(-10deg);opacity:0}15%{opacity:0.2;transform:translateY(20px) rotate(0deg)}50%{transform:translateY(-30px) scale(1.2) rotate(10deg);opacity:0.3}100%{transform:translateY(-100px) scale(.6) rotate(-15deg);opacity:0}}
+
+.container{width:100%;max-width:1100px;background:transparent !important;box-shadow:none !important}
+
+/* Remove any remaining thin borders from native controls and labels */
+input, select, textarea, button, a, label {
+  border: none !important;
+  outline: none !important;
+}
+
+/* Style checkboxes without default UA border */
+input[type='checkbox']{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width:18px;height:18px;border-radius:4px;background:#404040;display:inline-block;vertical-align:middle;box-shadow:inset 0 -1px 0 rgba(0,0,0,0.3);
+  border:2px solid #555 !important;
+}
+input[type='checkbox']:checked{background:linear-gradient(90deg,var(--primary),var(--secondary));border:2px solid transparent !important;}
+
+/* Centered big title */
+.container h1{ text-align:center; font-size:3.2rem; font-weight:900; letter-spacing:0.6px; margin-bottom:0.25rem; 
+  background: linear-gradient(90deg, #1dd1a1, var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 10px 30px rgba(255,255,255,0.02);
+}
+.container .muted{ text-align:center; display:block; margin-bottom:0.75rem; color: var(--muted) }
+
+/* Card / glass */
+.card{background: rgba(30, 30, 45, 0.7);border-radius:var(--card-radius);padding:1.5rem;box-shadow:0 8px 32px rgba(0,0,0,0.4);border:0;color:var(--text-light);backdrop-filter:blur(10px)}
+
+.controls{display:flex;flex-wrap:wrap;gap:0.75rem;align-items:center;margin-bottom:0.75rem}
+input[type='text'], input[type='email'], input[type='password'], select{padding:12px 14px;border-radius:12px;border:0;background:#2a2a3e;color:var(--text-light);outline:none;min-width:160px;font-size:1rem;box-shadow:inset 0 -1px 0 rgba(0,0,0,0.3)}
+input::placeholder{color:rgba(200,200,200,0.5)}
+
+/* Button system: large, tactile buttons - dull gray by default */
+button,input[type='submit']{background:#5a5a5a;border:0;color:#ffffff;padding:14px 20px;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,0.4);font-weight:700;font-size:1.05rem;cursor:pointer;transition:transform .12s ease, box-shadow .12s ease, background .2s ease}
+button:hover,input[type='submit']:hover{transform:translateY(-3px);box-shadow:0 20px 50px rgba(0,0,0,0.5);background:#6a6a6a}
+button:active,input[type='submit']:active{transform:translateY(-1px)}
+
+/* utility classes for alternative button colors */
+.btn-white{background:#5a5a5a;color:#ffffff;border:0;padding:12px 18px;box-shadow:0 6px 18px rgba(0,0,0,0.3)}
+.btn-white:hover{background:#6a6a6a;box-shadow:0 10px 28px rgba(0,0,0,0.4);transform:translateY(-2px)}
+.btn-gray{background:#5a5a5a;color:#ffffff;border:0;padding:12px 18px;box-shadow:0 6px 18px rgba(0,0,0,0.3)}
+.btn-gray:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,0.4);background:#6a6a6a}
+.btn-accent{background:linear-gradient(90deg,var(--secondary),#ff6aa6);color:#fff;border:0;padding:12px 18px;font-weight:700;box-shadow:0 8px 24px rgba(255,45,149,0.3)}
+.btn-accent:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(255,45,149,0.4)}
+
+/* Special styling for Users button - vibrant and beautiful */
+#users-link, a[href*="users.html"]{
+  background: linear-gradient(135deg, var(--primary), #00d4ff);
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-weight: 700;
+  box-shadow: 0 8px 24px rgba(22,181,161,0.3);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  border: 0;
+}
+#users-link:hover, a[href*="users.html"]:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(22,181,161,0.5);
+  background: linear-gradient(135deg, #00d4ff, var(--primary));
+}
+
+/* Table style - clean and modern without borders */
+table{width:100%;border-collapse:collapse;border-spacing:0;background:transparent;color:var(--text-light);-webkit-font-smoothing:antialiased;border:none !important}
+th, td{padding:12px 14px;text-align:left;border:none !important}
+th{display:none} /* hide header to favor card layout */
+/* Make tbody a block container and use margins on rows to create separation without gaps */
+tbody{display:block}
+tbody tr{display:flex;align-items:center;justify-content:space-between;gap:12px;background:rgba(100,100,100,0.3);border-radius:12px;padding:12px 16px;box-shadow:none;margin:0 0 12px 0;background-clip:padding-box;border:none !important;transition:all 0.3s ease}
+tbody tr:hover{background:rgba(100,100,100,0.5);transform:translateX(4px)}
+tbody tr td{display:block;padding:0 12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border:none !important;background:transparent}
+tbody tr td:nth-child(1){flex:0 0 60px;text-align:left}
+tbody tr td:nth-child(2){flex:1 1 auto;font-size:1.05rem;font-weight:600}
+tbody tr td:nth-child(3), tbody tr td:nth-child(4){flex:0 0 120px;text-align:right}
+tbody tr td button{margin-left:8px}
+
+/* Row hover: lift and subtle shadow for liveliness */
+tbody tr{transition:transform .18s ease, box-shadow .18s ease}
+tbody tr:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(16,24,32,0.06)}
+
+/* Make links in header visually prominent */
+.header a.nav-link{vertical-align:middle}
+
+/* Edit form as floating card */
+#editForm.card{max-width:480px;margin:1rem 0}
+
+/* Toast container styling override to match dark theme */
+#toast-container{max-width:360px}
+.toast-message{background:linear-gradient(90deg, rgba(50, 50, 70, 0.95), rgba(60, 60, 80, 0.95));color:#ffffff;padding:10px 12px;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.4);border:1px solid rgba(22,181,161,0.3)}
+.toast-time{opacity:0.7;font-size:0.8rem;color:#a0a0a0}
+
+/* Responsive */
+@media (max-width:720px){
+  body{padding:1rem}
+  .header{flex-direction:column;align-items:flex-start}
+  .controls{flex-direction:column;align-items:stretch}
+  input[type='text'], input[type='email'], select{width:100%}
+  table, .card{font-size:0.95rem}
+}
+
+/* small utility */
+.muted{color:var(--muted);font-size:0.9rem}
+
+/* subtle decorative gradient footer */
+.footer-grad{height:80px;width:100%;background:linear-gradient(180deg, rgba(22,181,161,0.1), rgba(255,45,149,0.08));border-radius:12px;margin-top:1rem;opacity:0.15}
+
