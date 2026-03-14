@@ -1,1 +1,1 @@
-[{"Id":101,"Name":"chalil","IsWoodMade":false,"UserId":100},{"Id":102,"Name":"kinor","IsWoodMade":false,"UserId":102},{"Id":103,"Name":"piano","IsWoodMade":false,"UserId":104},{"Id":104,"Name":"gitara","IsWoodMade":false,"UserId":0}]
+[{"Id":101,"Name":"chalil","IsWoodMade":true,"UserId":0},{"Id":104,"Name":"gitara","IsWoodMade":false,"UserId":0},{"Id":105,"Name":"piano","IsWoodMade":true,"UserId":0},{"Id":106,"Name":"organ","IsWoodMade":true,"UserId":0}]

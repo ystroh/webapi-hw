@@ -12,18 +12,77 @@ using System.Text.Json;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Google;
 namespace myUsers.controllers;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 [ApiController]
 [Route("[controller]")]
 public class UsersController : ControllerBase
 {
 
+// [HttpGet("login-google")]
+// public IActionResult Login()
+// {
+//     // זה שולח את המשתמש לגוגל ומבקש ממנו לחזור לדף הבית אחרי האישור
+//     return Challenge(new AuthenticationProperties { RedirectUri = "/" }, GoogleDefaults.AuthenticationScheme);
+// }
 [HttpGet("login-google")]
 public IActionResult Login()
 {
-    // זה שולח את המשתמש לגוגל ומבקש ממנו לחזור לדף הבית אחרי האישור
-    return Challenge(new AuthenticationProperties { RedirectUri = "/" }, GoogleDefaults.AuthenticationScheme);
+    // אנחנו שולחים את המשתמש לגוגל, ואומרים לגוגל: כשסיימת, תחזור לכתובת /google-response
+    var properties = new AuthenticationProperties { RedirectUri = "/google-response" };
+    return Challenge(properties, GoogleDefaults.AuthenticationScheme);
 }
+[HttpGet("/google-response")]
+public async Task<IActionResult> GoogleResponse()
+{
+    // 1. שליפת המידע הזמני שגוגל החזיר (מתוך ה-Cookie הזמני)
+    var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+    
+    if (!result.Succeeded) 
+        return Redirect("/login.html?error=auth_failed");
+
+    // 2. חילוץ המייל של המשתמש שגוגל אימת
+    var email = result.Principal.FindFirstValue(ClaimTypes.Email);
+
+    // 3. אימות מול ה-Service שלך (שקורא מה-users.json)
+    // אנחנו מחפשים משתמש שהמייל שלו ב-JSON תואם למייל מגוגל
+    var existingUser = service.Get().FirstOrDefault(u => 
+        !string.IsNullOrEmpty(u.Mail) && 
+        u.Mail.Equals(email, StringComparison.OrdinalIgnoreCase));
+
+    // --- הבדיקה שביקשת: אם המשתמש לא נמצא ב-JSON ---
+    if (existingUser == null)
+    {
+        Console.WriteLine($"DEBUG: Google login failed. Email {email} not found in users.json");
+        return Redirect("/login.html?error=user_not_found");
+    }
+
+    // 4. בניית ה-Claims - העתק מדויק של הלוגיקה שלך ב-Login הרגיל
+    var claims = new List<Claim>
+    {
+        new Claim(ClaimTypes.NameIdentifier, existingUser.Id.ToString()),
+        new Claim(ClaimTypes.Name, existingUser.Name ?? string.Empty),
+        new Claim(ClaimTypes.Email, existingUser.Mail ?? string.Empty),
+        new Claim(ClaimTypes.Role, existingUser.Role ?? "User"), // לוקח את ה-Role האמיתי (Admin/User)
+    };
+
+    // 5. הנפקת הטוקן באמצעות ה-TokenService שלך
+    var tokenObject = TokenService.GetToken(claims);
+    string finalToken = TokenService.WriteToken(tokenObject);
+
+    // 6. התנתקות מהקוקי הזמני של גוגל
+    await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+    // 7. שמירה ב-LocalStorage ומעבר לדף הבית
+    // שימי לב: אם ה-JS שלך דורש "Bearer " לפני הטוקן, הוסיפי אותו כאן בתוך הגרשיים
+    return Content($@"
+        <script>
+            localStorage.setItem('Token', '{finalToken}');
+            window.location.href = '/index.html';
+        </script>", "text/html");
+}
+
+
 
    // private MusicService service;
     IUsersServices service;

@@ -153,7 +153,6 @@ C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\musi
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\bin\Debug\net9.0\Logs\log.json
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\xdr77hba7n-{0}-gb9l49kbfl-gb9l49kbfl.gz
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\cey1gtq6p6-{0}-z4dvp9f7iq-z4dvp9f7iq.gz
-c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\fua3w0ns6q-{0}-exkc686fey-exkc686fey.gz
 c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\oq81nn2st3-{0}-5qyb3iloyu-5qyb3iloyu.gz
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Google.dll
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
@@ -187,3 +186,4 @@ C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\musi
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\yt43gidm7w-{0}-ab4h9yt90b-ab4h9yt90b.gz
 c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\n688qyi3by-{0}-nnu6ahnjfl-nnu6ahnjfl.gz
 c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\caevexit69-{0}-itwa9te0u7-itwa9te0u7.gz
+c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\fua3w0ns6q-{0}-ghaa7ou2l8-ghaa7ou2l8.gz

@@ -4,6 +4,7 @@ let hubConnection = null;
 
  function  isLogin()
  {
+    console.log("search token")
     // const token = JSON.parse(localStorage.getItem("Token"))
     if(localStorage.getItem("Token"))
        {
