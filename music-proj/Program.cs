@@ -1,7 +1,7 @@
 using MusicService.interfaces;
 using myMusic.Services;
 using myMusic.Models;
-using MyMiddleware;
+// using MyMiddleware;
 using myUsers.Services;
 using myUsers.Models;
 using Common.Repositories;
@@ -95,7 +95,7 @@ builder.Services.AddAuthorization(options =>
 // החזרת הלוגר הרגיל של ה-Console
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole(); 
-builder.Logging.AddDebug();
+// builder.Logging.AddDebug();
 
 builder.Services.AddOpenApi();
 builder.Services.AddSignalR();
@@ -124,7 +124,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseMiddleware<RequestLoggingMiddleware>();
-app.UseMyLogMiddleware();
+// app.UseMyLogMiddleware();
 
 app.MapControllers();
 app.MapHub<MusicHub>("/musicHub");
