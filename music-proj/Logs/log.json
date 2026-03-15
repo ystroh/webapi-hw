@@ -5647,3 +5647,171 @@
   "UserName": "yehudit",
   "DurationMs": 103021
 }
+{
+  "StartTime": "2026-03-14T21:04:46.6788382+02:00",
+  "ControllerName": "/favicon.ico",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-14T21:04:46.6930126+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 13
+}
+{
+  "StartTime": "2026-03-14T21:04:46.6953503+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Me",
+  "UserName": "admin",
+  "DurationMs": 56
+}
+{
+  "StartTime": "2026-03-14T21:04:46.6953123+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 61
+}
+{
+  "StartTime": "2026-03-14T21:04:58.8166985+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-14T21:05:07.7494096+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-14T21:04:46.7145035+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 21040
+}
+{
+  "StartTime": "2026-03-14T21:05:07.7727645+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-14T21:05:15.0202078+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Login",
+  "UserName": "Anonymous",
+  "DurationMs": 80
+}
+{
+  "StartTime": "2026-03-14T21:05:15.1260627+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-14T21:05:15.1333117+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-14T21:05:15.1333865+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Me",
+  "UserName": "admin",
+  "DurationMs": 2
+}
+{
+  "StartTime": "2026-03-14T21:05:15.1397986+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-14T21:05:18.533264+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-14T21:05:15.1485396+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 3414
+}
+{
+  "StartTime": "2026-03-14T21:05:18.5587887+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 6
+}
+{
+  "StartTime": "2026-03-14T21:05:24.7789308+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-14T21:05:24.7800614+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-14T21:05:24.7822311+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Me",
+  "UserName": "admin",
+  "DurationMs": 1
+}
+{
+  "StartTime": "2026-03-14T21:05:24.8004552+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "admin",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-14T21:05:24.8161718+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "admin",
+  "DurationMs": 25666
+}
+{
+  "StartTime": "2026-03-14T21:05:50.5002286+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-14T21:05:50.543333+02:00",
+  "ControllerName": "/.well-known/appspecific/com.chrome.devtools.json",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-14T21:05:52.3287566+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Login",
+  "UserName": "Anonymous",
+  "DurationMs": 29
+}
