@@ -26,5 +26,12 @@
     "password": 0,
     "Mail": "y0534178779@gmail.com",
     "Role": "Admin"
+  },
+  {
+    "Id": 113,
+    "Name": "\u05EA\u05DE\u05E8",
+    "password": 0,
+    "Mail": "t000@gmail.com",
+    "Role": "User"
   }
 ]

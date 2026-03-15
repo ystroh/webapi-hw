@@ -1,138 +1,120 @@
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Text.Json;
-using Microsoft.AspNetCore.Hosting;
 using Common.Repositories;
-using System;
+using Microsoft.AspNetCore.Hosting;
 
-namespace Common.Services
+namespace Common.Services;
+
+public class JsonFileRepository<T> : IRepository<T> where T : class
 {
-    /// <summary>
-    /// JsonFileRepository - יישום פשוט של IRepository שמאחסן רשומות בקובץ JSON.
-    /// תכונות עיקריות:
-    /// - מנוהל כ‑singleton (הרשומות נטענות לזיכרון והכתיבה מתבצעת ל‑file בעת שינוי).
-    /// - משתמש ב‑locker (lock) כדי להבטיח thread-safety על קריאה/כתיבה.
-    /// - דורש ש‑T יכיל property בשם `Id` מטיפוס int (מנוהל באמצעות reflection בקוד זה).
-    /// שימוש:
-    /// - ב‑DI יש להרשימו כ‑Singleton ולספק נתיב לקובץ JSON (לדוגמה "Data/users.json").
-    /// </summary>
-    public class JsonFileRepository<T> : IRepository<T> where T : class
+    private readonly string _filePath;
+    private List<T> _items;
+    private readonly object _locker = new();
+    private readonly JsonSerializerOptions _jsonOptions = new() { PropertyNameCaseInsensitive = true, WriteIndented = true };
+
+    public JsonFileRepository(IWebHostEnvironment env, string relativePath)
     {
-        private readonly string filePath;
-        private List<T> items;
-        private readonly object locker = new object();
+        // קביעת נתיב הקובץ יחסית לשורש הפרויקט
+        _filePath = Path.IsPathRooted(relativePath) 
+            ? relativePath 
+            : Path.Combine(env.ContentRootPath, relativePath);
 
-        /// <summary>
-        /// בנאי - מקבל IWebHostEnvironment כדי לבנות נתיב יחסית ל‑ContentRootPath
-        /// או נתיב מוחלט אם נמסר כזה.
-        /// </summary>
-        public JsonFileRepository(IWebHostEnvironment env, string relativePath)
+        LoadFromFile();
+    }
+
+    /// <summary>
+    /// טעינת הנתונים מהקובץ לזיכרון בעת אתחול הריפוזיטורי
+    /// </summary>
+    private void LoadFromFile()
+    {
+        lock (_locker)
         {
-            if (Path.IsPathRooted(relativePath))
-                filePath = relativePath;
-            else
-                filePath = Path.Combine(env.ContentRootPath, relativePath);
-
-            LoadFromFile();
-        }
-
-        // טען את הקובץ לזיכרון (או צור חדש אם לא קיים)
-        private void LoadFromFile()
-        {
-            lock (locker)
+            if (!File.Exists(_filePath))
             {
-                if (!File.Exists(filePath))
-                {
-                    items = new List<T>();
-                    SaveToFile();
-                    return;
-                }
-
-                var content = File.ReadAllText(filePath);
-                items = JsonSerializer.Deserialize<List<T>>(content, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new List<T>();
-            }
-        }
-
-        // שמור את המצב הנוכחי חזרה לקובץ (מופעל בעת שינויים)
-        private void SaveToFile()
-        {
-            lock (locker)
-            {
-                var text = JsonSerializer.Serialize(items, new JsonSerializerOptions { WriteIndented = true });
-                File.WriteAllText(filePath, text);
-            }
-        }
-
-        // מחזיר עותק של כל הפריטים (כדי למנוע שינוי מחוץ לריפוזיטורי)
-        public List<T> GetAll()
-        {
-            lock (locker) { return items.Select(i => i).ToList(); }
-        }
-
-        // מחזיר פריט לפי id
-        public T Get(int id)
-        {
-            lock (locker)
-            {
-                return items.FirstOrDefault(i => GetId(i) == id);
-            }
-        }
-
-        // יוצר פריט חדש ומקצה Id אוטומטית
-        public T Create(T item)
-        {
-            lock (locker)
-            {
-                var max = items.Any() ? items.Max(i => GetId(i)) : 0;
-                SetId(item, max + 1);
-                items.Add(item);
+                _items = new List<T>();
                 SaveToFile();
-                return item;
+                return;
             }
-        }
 
-        // עדכון פריט קיים
-        public int Update(int id, T item)
-        {
-            lock (locker)
-            {
-                var existing = items.FirstOrDefault(i => GetId(i) == id);
-                if (existing == null) return 1; // לא נמצא
-                if (GetId(item) != id) return 2; // id לא תואם
-                var idx = items.IndexOf(existing);
-                items[idx] = item;
-                SaveToFile();
-                return 3; // הצלחה
-            }
+            var content = File.ReadAllText(_filePath);
+            _items = JsonSerializer.Deserialize<List<T>>(content, _jsonOptions) ?? new List<T>();
         }
+    }
 
-        // מחיקת פריט לפי id
-        public bool Delete(int id)
+    /// <summary>
+    /// שמירת מצב הרשימה הנוכחי בזיכרון בחזרה לקובץ הפיזי
+    /// </summary>
+    private void SaveToFile()
+    {
+        lock (_locker)
         {
-            lock (locker)
-            {
-                var existing = items.FirstOrDefault(i => GetId(i) == id);
-                if (existing == null) return false;
-                items.Remove(existing);
-                SaveToFile();
-                return true;
-            }
+            var text = JsonSerializer.Serialize(_items, _jsonOptions);
+            File.WriteAllText(_filePath, text);
         }
+    }
 
-        // עזרי reflection לגישה/הגדרה של property בשם Id
-        private int GetId(T item)
-        {
-            var prop = item.GetType().GetProperty("Id");
-            if (prop == null) return 0;
-            return (int)(prop.GetValue(item) ?? 0);
-        }
+    public List<T> GetAll()
+    {
+        lock (_locker) return _items.ToList();
+    }
 
-        private void SetId(T item, int id)
+    public T Get(int id)
+    {
+        lock (_locker) return _items.FirstOrDefault(i => GetId(i) == id);
+    }
+
+    /// <summary>
+    /// הוספת אובייקט חדש תוך יצירת מזהה ייחודי (Max ID + 1)
+    /// </summary>
+    public T Create(T item)
+    {
+        lock (_locker)
         {
-            var prop = item.GetType().GetProperty("Id");
-            if (prop == null) return;
-            prop.SetValue(item, id);
+            var maxId = _items.Any() ? _items.Max(i => GetId(i)) : 0;
+            SetId(item, maxId + 1);
+            _items.Add(item);
+            SaveToFile();
+            return item;
         }
+    }
+
+    public int Update(int id, T item)
+    {
+        lock (_locker)
+        {
+            var existing = _items.FirstOrDefault(i => GetId(i) == id);
+            if (existing == null) return 1; // לא נמצא
+            if (GetId(item) != id) return 2; // חוסר התאמה במזהים
+            
+            var index = _items.IndexOf(existing);
+            _items[index] = item;
+            SaveToFile();
+            return 3; // הצלחה
+        }
+    }
+
+    public bool Delete(int id)
+    {
+        lock (_locker)
+        {
+            var existing = _items.FirstOrDefault(i => GetId(i) == id);
+            if (existing == null) return false;
+            
+            _items.Remove(existing);
+            SaveToFile();
+            return true;
+        }
+    }
+
+    // שימוש ב-Reflection כדי לגשת למאפיין ה-Id של טיפוס גנרי שאינו ידוע מראש
+    private int GetId(T item)
+    {
+        var prop = item.GetType().GetProperty("Id");
+        return (int)(prop?.GetValue(item) ?? 0);
+    }
+
+    private void SetId(T item, int id)
+    {
+        var prop = item.GetType().GetProperty("Id");
+        prop?.SetValue(item, id);
     }
 }

@@ -6354,3 +6354,52 @@
   "UserName": "yehudit",
   "DurationMs": 77
 }
+{
+  "StartTime": "2026-03-15T14:14:23.2817265+02:00",
+  "ControllerName": "/favicon.ico",
+  "ActionName": "GET",
+  "UserName": "Anonymous",
+  "DurationMs": 0
+}
+{
+  "StartTime": "2026-03-15T14:14:23.4528961+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "yehudit",
+  "DurationMs": 9
+}
+{
+  "StartTime": "2026-03-15T14:14:23.4580047+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Me",
+  "UserName": "yehudit",
+  "DurationMs": 80
+}
+{
+  "StartTime": "2026-03-15T14:14:23.4580299+02:00",
+  "ControllerName": "Music",
+  "ActionName": "Get",
+  "UserName": "yehudit",
+  "DurationMs": 86
+}
+{
+  "StartTime": "2026-03-15T14:14:23.4760434+02:00",
+  "ControllerName": "/musicHub",
+  "ActionName": "CONNECT",
+  "UserName": "yehudit",
+  "DurationMs": 6234
+}
+{
+  "StartTime": "2026-03-15T14:14:29.706269+02:00",
+  "ControllerName": "Users",
+  "ActionName": "Get",
+  "UserName": "yehudit",
+  "DurationMs": 13
+}
+{
+  "StartTime": "2026-03-15T14:14:35.8746144+02:00",
+  "ControllerName": "/musicHub/negotiate",
+  "ActionName": "POST",
+  "UserName": "yehudit",
+  "DurationMs": 0
+}

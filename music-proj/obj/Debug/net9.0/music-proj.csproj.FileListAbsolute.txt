@@ -149,7 +149,6 @@ C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\musi
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\music-proj.pdb
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\music-proj.genruntimeconfig.cache
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\ref\music-proj.dll
-C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\rfpz4khvha-{0}-rdlouile95-rdlouile95.gz
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\bin\Debug\net9.0\Logs\log.json
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\xdr77hba7n-{0}-gb9l49kbfl-gb9l49kbfl.gz
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\cey1gtq6p6-{0}-z4dvp9f7iq-z4dvp9f7iq.gz
@@ -184,6 +183,7 @@ C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\musi
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\bin\Debug\net9.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Text.Encodings.Web.dll
 C:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\yt43gidm7w-{0}-ab4h9yt90b-ab4h9yt90b.gz
-c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\n688qyi3by-{0}-nnu6ahnjfl-nnu6ahnjfl.gz
 c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\caevexit69-{0}-itwa9te0u7-itwa9te0u7.gz
-c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\fua3w0ns6q-{0}-ghaa7ou2l8-ghaa7ou2l8.gz
+c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\rfpz4khvha-{0}-rpai0k0pk3-rpai0k0pk3.gz
+c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\fua3w0ns6q-{0}-s6c8g5fm48-s6c8g5fm48.gz
+c:\Users\user1\Documents\יהודית\תכנות שנה ב\webapi\webapi-hw\music-proj\obj\Debug\net9.0\compressed\n688qyi3by-{0}-pm3jcwrbob-pm3jcwrbob.gz

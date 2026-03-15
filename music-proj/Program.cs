@@ -1,7 +1,6 @@
 using MusicService.interfaces;
 using myMusic.Services;
 using myMusic.Models;
-// using MyMiddleware;
 using myUsers.Services;
 using myUsers.Models;
 using Common.Repositories;
@@ -14,24 +13,16 @@ using TokenServices.Services;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Mvc;
 using Models;
-// using Serilog; // הושם בהערה
 
 var builder = WebApplication.CreateBuilder(args);
 
-// הושם בהערה - Serilog configuration
-/*
-Log.Logger = new LoggerConfiguration()
-    .WriteTo.File("Logs/music_shop_log.txt", 
-        fileSizeLimitBytes: 52428800, 
-        rollOnFileSizeLimit: true, 
-        rollingInterval: RollingInterval.Day)
-    .CreateLogger();
+// --- רישום שירותי מערכת (Dependency Injection) ---
 
-builder.Host.UseSerilog(); 
-*/
+// רישום שירותי המשתמשים והמוזיקה באמצעות Extension Methods
 builder.Services.AddUsersService();
+builder.Services.AddMusicService();
 
-// Add services to the container.
+// הגדרת בקרים וטיפול בשגיאות Model Validation
 builder.Services.AddControllers().ConfigureApiBehaviorOptions(options =>
 {
     options.InvalidModelStateResponseFactory = context =>
@@ -41,23 +32,24 @@ builder.Services.AddControllers().ConfigureApiBehaviorOptions(options =>
         return new BadRequestObjectResult(context.ModelState);
     };
 });
-builder.Services.AddMusicService();
 
-
-// רישום ריפוזיטוריות JSON
+// רישום ריפוזיטוריות גנריות לניהול קבצי JSON (Singleton)
 builder.Services.AddSingleton<IRepository<myUsers.Models.Users>>(sp =>
-    new JsonFileRepository<myUsers.Models.Users>(sp.GetRequiredService<IWebHostEnvironment>(), System.IO.Path.Combine("Data", "users.json")));
+    new JsonFileRepository<myUsers.Models.Users>(sp.GetRequiredService<IWebHostEnvironment>(), Path.Combine("Data", "users.json")));
 
 builder.Services.AddSingleton<IRepository<myMusic.Models.Music>>(sp =>
-    new JsonFileRepository<myMusic.Models.Music>(sp.GetRequiredService<IWebHostEnvironment>(), System.IO.Path.Combine("Data", "music.json")));
+    new JsonFileRepository<myMusic.Models.Music>(sp.GetRequiredService<IWebHostEnvironment>(), Path.Combine("Data", "music.json")));
 
+// רישום מערכת הלוגים האסינכרונית (תור ושירות רקע)
 builder.Services.AddSingleton<LogQueue>();
 builder.Services.AddHostedService<BackgroundWorker>();
 
+// הגדרת גישה ל-HttpContext ולמשתמש המחובר (Active User)
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IActiveUser, ActiveUser>();
 
-// הגדרות Authentication
+// --- הגדרות אימות והרשאות (Authentication & Authorization) ---
+
 builder.Services.AddAuthentication(options =>
     {
         options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -72,6 +64,7 @@ builder.Services.AddAuthentication(options =>
         {
             OnMessageReceived = context =>
             {
+                // תמיכה בשליפת טוקן מה-Query String עבור SignalR
                 var accessToken = context.Request.Query["access_token"].FirstOrDefault();
                 if (!string.IsNullOrEmpty(accessToken))
                 {
@@ -81,28 +74,30 @@ builder.Services.AddAuthentication(options =>
             }
         };
     })
-.AddGoogle(options =>
-{
-    options.ClientId = builder.Configuration["Authentication:Google:ClientId"];
-    options.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
-});
+    .AddGoogle(options =>
+    {
+        options.ClientId = builder.Configuration["Authentication:Google:ClientId"];
+        options.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
+    });
 
+// הגדרת מדיניות הרשאות
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
 });
 
-// החזרת הלוגר הרגיל של ה-Console
+// --- הגדרות תשתית נוספות ---
+
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole(); 
-// builder.Logging.AddDebug();
 
 builder.Services.AddOpenApi();
 builder.Services.AddSignalR();
 
 var app = builder.Build();
 
-// סדר ה-Middleware
+// --- הגדרת צינור הבקשות (Middleware Pipeline) ---
+
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
@@ -113,19 +108,19 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseDefaultFiles();
-
 app.UseStaticFiles();
 
 app.UseRouting();
 
+// סדר קריטי: אימות לפני הרשאות
 app.UseAuthentication();
 app.UseAuthorization();
 
+// Middleware מותאם אישית לרישום לוגים של בקשות
 app.UseMiddleware<RequestLoggingMiddleware>();
-// app.UseMyLogMiddleware();
 
+// ניתוב סופי לקונטרולרים ול-SignalR Hub
 app.MapControllers();
 app.MapHub<MusicHub>("/musicHub");
 

@@ -1,109 +1,92 @@
-using Microsoft.AspNetCore.Mvc;
-using myMusic.Models;
-using System.Security.Cryptography.X509Certificates;
-using MusicService.interfaces;
-using System.Collections.Generic;
-using System.Linq;
-using System.IO;
-using System;
-using System.Net;
 using System.Text.Json;
-using Microsoft.AspNetCore.Hosting;
+using myMusic.Models;
+using MusicService.interfaces;
+
 namespace myMusic.Services;
 
 public class MusicService : IMusicServices
 {
-  
-
-     private List<Music> list;
-     private IWebHostEnvironment  webHost;
-     private string filePath ;
+    private List<Music> _list;
+    private readonly string _filePath;
+    private readonly JsonSerializerOptions _options = new() { PropertyNameCaseInsensitive = true };
 
     public MusicService(IWebHostEnvironment webHost)
     {
-        this.webHost = webHost;
-
-           this.filePath = Path.Combine(webHost.ContentRootPath, "Data", "music.json");
-            using (var jsonFile = File.OpenText(filePath))
-            {
-                var content = jsonFile.ReadToEnd();
-                list = JsonSerializer.Deserialize<List<Music>>(content,
-                new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true
-                });
-            }
-    }
-   
-   
-        private void saveToFile()
+        // קביעת נתיב הקובץ וטעינת הנתונים בבניית השירות
+        _filePath = Path.Combine(webHost.ContentRootPath, "Data", "music.json");
+        
+        if (File.Exists(_filePath))
         {
-            var text = JsonSerializer.Serialize(list);
-            File.WriteAllText(filePath, text);
+            var content = File.ReadAllText(_filePath);
+            _list = JsonSerializer.Deserialize<List<Music>>(content, _options) ?? new List<Music>();
         }
-
-    public List<Music> Get()
-    {
-        return list;
+        else
+        {
+            _list = new List<Music>();
+        }
     }
 
-    private Music find(int id)
+    /// <summary>
+    /// שמירת הרשימה המעודכנת מהזיכרון בחזרה לקובץ הדיסק
+    /// </summary>
+    private void SaveToFile()
     {
-        return list.FirstOrDefault(p => p.Id == id);
-
+        var text = JsonSerializer.Serialize(_list, new JsonSerializerOptions { WriteIndented = true });
+        File.WriteAllText(_filePath, text);
     }
 
-    public Music Get(int id) => find(id);
+    public List<Music> Get() => _list;
 
+    public Music Get(int id) => _list.FirstOrDefault(p => p.Id == id);
+
+    /// <summary>
+    /// יצירת פריט חדש עם מזהה רץ ושמירה לקובץ
+    /// </summary>
     public Music Create(Music newMusic)
     {
-        var maxId = list.Max(p => p.Id);
+        var maxId = _list.Any() ? _list.Max(p => p.Id) : 0;
         newMusic.Id = maxId + 1;
-        list.Add(newMusic);
-         saveToFile();
-            return newMusic;
-        
+        _list.Add(newMusic);
+        SaveToFile();
+        return newMusic;
     }
 
+    /// <summary>
+    /// עדכון פריט קיים לפי מזהה
+    /// </summary>
     public int Update(int id, Music newMusic)
     {
-            var m = find(id);
-        if(m == null)
-          return 1;
+        var existing = Get(id);
+        if (existing == null) return 1; // לא נמצא
+        if (newMusic.Id != id) return 2; // מזהה לא תואם
 
-        if(m.Id != newMusic.Id)
-           return 2;
-
-        var index = list.IndexOf(m);
-        list[index] = newMusic;
-        saveToFile();
-        return 3;
+        var index = _list.IndexOf(existing);
+        _list[index] = newMusic;
+        SaveToFile();
+        return 3; // הצלחה
     }
 
-   
+    /// <summary>
+    /// מחיקת פריט מהרשימה ועדכון הקובץ
+    /// </summary>
     public bool Delete(int id)
     {
-         var m= find(id);
-        if(m==null)
-            return false;
-        list.Remove(m);
-       
+        var music = Get(id);
+        if (music == null) return false;
 
-          saveToFile();
+        _list.Remove(music);
+        SaveToFile();
         return true;
     }
 }
-    public static class MusicExtension{
-      public static void AddMusicService(this IServiceCollection services)
-        {
-            services.AddSingleton<IMusicServices, MusicService>();
-            //services.AddScope<IOrderManager, OrderManager>();
-            //services.AddTransient<IOrderSender, OrderSenderHttp>();            
-        }
 
-
-
-
+/// <summary>
+/// הרחבה לרישום נוח של שירותי המוזיקה ב-Program.cs
+/// </summary>
+public static class MusicExtension
+{
+    public static void AddMusicService(this IServiceCollection services)
+    {
+        services.AddSingleton<IMusicServices, MusicService>();
+    }
 }
-
-

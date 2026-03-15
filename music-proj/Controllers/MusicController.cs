@@ -4,184 +4,124 @@ using Microsoft.AspNetCore.SignalR;
 using Common.Active;
 using System.Security.Claims;
 using myMusic.Models;
-using System.Security.Cryptography.X509Certificates;
-using myMusic.Services;
 using MusicService.interfaces;
 
 namespace myMusic.controllers;
 
-// כל הבקשות ל־Music דורשות Authentication
 [ApiController]
 [Route("[controller]")]
+[Authorize]
 public class MusicController : ControllerBase
 {
-   // private MusicService service;
-    IMusicServices service;
+    private readonly IMusicServices _musicService;
     private readonly IHubContext<MusicHub> _hubContext;
     private readonly IActiveUser _activeUser;
 
-   public MusicController(IMusicServices musicService, IHubContext<MusicHub> hubContext, IActiveUser activeUser)
+    public MusicController(IMusicServices musicService, IHubContext<MusicHub> hubContext, IActiveUser activeUser)
     {
-        this.service = musicService;
+        _musicService = musicService;
         _hubContext = hubContext;
         _activeUser = activeUser;
     }
 
-    [HttpGet()]
-    [Authorize]
-    // משתמש רגיל רואה רק את המוזיקה שלו; אדמין רואה הכל
+    /// <summary>
+    /// שליפת כל הפריטים: אדמין רואה הכל, משתמש רגיל רואה רק את שלו
+    /// </summary>
+    [HttpGet]
     public ActionResult<IEnumerable<Music>> Get()
     {
-        // אם המשתמש מנהל - מחזירים הכל, אחרת מחזירים רק את המוזיקה ששייכת למשתמש הנוכחי
-        var isAdmin = User.IsInRole("Admin");
-        if (isAdmin)
-            return service.Get();
+        var allMusic = _musicService.Get();
+        
+        if (User.IsInRole("Admin"))
+            return Ok(allMusic);
 
-        var idClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-        if (!int.TryParse(idClaim, out var userId))
-            return Unauthorized();
-
-        var userList = service.Get().Where(m => m.UserId == userId).ToList();
-        return userList;
+        var userId = GetCurrentUserId();
+        return Ok(allMusic.Where(m => m.UserId == userId));
     }
 
-
+    /// <summary>
+    /// שליפת פריט לפי מזהה עם בדיקת הרשאות גישה
+    /// </summary>
     [HttpGet("{id}")]
-    [Authorize]
-    // משתמש רגיל רואה רק את המוזיקה שלו; אדמין רואה הכל
     public ActionResult<Music> Get(int id)
     {
-        var m = service.Get(id);
-        if (m == null)
-            return NotFound();
+        var music = _musicService.Get(id);
+        if (music == null) return NotFound();
 
-        var isAdmin = User.IsInRole("Admin");
-        if (isAdmin)
-            return m;
-
-        var idClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-        if (!int.TryParse(idClaim, out var userId))
-            return Unauthorized();
-
-        if (m.UserId != userId)
+        if (!User.IsInRole("Admin") && music.UserId != GetCurrentUserId())
             return Forbid();
 
-        return m;
-
+        return Ok(music);
     }
 
+    /// <summary>
+    /// יצירת פריט חדש ושליחת התראה ב-SignalR
+    /// </summary>
     [HttpPost]
-    [Authorize]
-    // משתמש רגיל יכול ליצור רק פריט במאגר שלו; מנהל יכול ליצור לכל משתמש
     public async Task<ActionResult> Create(Music newMusic)
     {
-        var isAdmin = User.IsInRole("Admin");
-        var idClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-        if (!int.TryParse(idClaim, out var userId))
-            return Unauthorized();
+        if (!User.IsInRole("Admin"))
+            newMusic.UserId = GetCurrentUserId();
 
-        if (!isAdmin)
-        {
-            // כופה שהפריט ישויך למשתמש הנוכחי
-            newMusic.UserId = userId;
-        }
+        var createdMusic = _musicService.Create(newMusic);
+        await NotifyClients("create", createdMusic.Id);
 
-        var postedMusic = service.Create(newMusic);
-
-        // Notify the user's connected SignalR clients about the new item
-        if (_activeUser.Id.HasValue)
-        {
-            var currentUserId = _activeUser.Id.Value.ToString();
-            var connections = MusicHub.GetConnections(currentUserId);
-            if (connections != null && connections.Any())
-            {
-                await _hubContext.Clients.Clients(connections).SendAsync("ItemUpdated", "create", postedMusic.Id);
-            }
-        }
-
-        return CreatedAtAction(nameof(Create), new { id = postedMusic.Id });
+        return CreatedAtAction(nameof(Get), new { id = createdMusic.Id }, createdMusic);
     }
 
-    // private Music find(int id)
-    // {
-    //      return service.FirstOrDefault(p => p.Id == id);
-    // }
-
+    /// <summary>
+    /// עדכון פריט קיים (אדמין או בעל הפריט)
+    /// </summary>
     [HttpPut("{id}")]
-    [Authorize]
-    // משתמש רגיל יכול לעדכן רק פריטים שלו; מנהל יכול לעדכן הכל
-    public async Task<ActionResult> Update(int id, Music newMusic)
+    public async Task<ActionResult> Update(int id, Music updatedMusic)
     {
-        var existing = service.Get(id);
-        if (existing == null)
-            return NotFound();
+        var existing = _musicService.Get(id);
+        if (existing == null) return NotFound();
 
-        var isAdmin = User.IsInRole("Admin");
-        var idClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-        if (!int.TryParse(idClaim, out var userId))
-            return Unauthorized();
-
-        if (!isAdmin && existing.UserId != userId)
+        if (!User.IsInRole("Admin") && existing.UserId != GetCurrentUserId())
             return Forbid();
 
-        // אם המשתמש רגיל, לוודא שה־UserId נשאר שלו
-        if (!isAdmin)
-            newMusic.UserId = userId;
+        if (!User.IsInRole("Admin"))
+            updatedMusic.UserId = GetCurrentUserId();
 
-        var ans = service.Update(id, newMusic);
-        if (ans == 1)
-            return NotFound();
-        if (ans == 2)
-            return BadRequest();
+        var result = _musicService.Update(id, updatedMusic);
+        if (result == 1) return NotFound();
+        if (result == 2) return BadRequest();
 
-        // Notify the user's connected SignalR clients about the update
-        if (_activeUser.Id.HasValue)
-        {
-            var currentUserId = _activeUser.Id.Value.ToString();
-            var connections = MusicHub.GetConnections(currentUserId);
-            if (connections != null && connections.Any())
-            {
-                await _hubContext.Clients.Clients(connections).SendAsync("ItemUpdated", "update", id);
-            }
-        }
-
+        await NotifyClients("update", id);
         return NoContent();
     }
 
+    /// <summary>
+    /// מחיקת פריט ושליחת התראה לכל החיבורים הפעילים של המשתמש
+    /// </summary>
     [HttpDelete("{id}")]
-    [Authorize]
-    // משתמש רגיל יכול למחוק רק פריטים שלו; מנהל יכול למחוק הכל
     public async Task<ActionResult> Delete(int id)
     {
-        var existing = service.Get(id);
-        if (existing == null)
-            return NotFound();
+        var existing = _musicService.Get(id);
+        if (existing == null) return NotFound();
 
-        var isAdmin = User.IsInRole("Admin");
-        var idClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-        if (!int.TryParse(idClaim, out var userId))
-            return Unauthorized();
-
-        if (!isAdmin && existing.UserId != userId)
+        if (!User.IsInRole("Admin") && existing.UserId != GetCurrentUserId())
             return Forbid();
 
-        var ans = service.Delete(id);
-        if (!ans)
-            return NotFound();
+        if (!_musicService.Delete(id)) return NotFound();
 
-        // Notify the user's connected SignalR clients about the deletion
+        await NotifyClients("delete", id);
+        return NoContent();
+    }
+
+    // מתודות עזר פרטיות לניקוי הקוד
+    private int GetCurrentUserId() => int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+    private async Task NotifyClients(string action, int itemId)
+    {
         if (_activeUser.Id.HasValue)
         {
-            var currentUserId = _activeUser.Id.Value.ToString();
-            var connections = MusicHub.GetConnections(currentUserId);
+            var connections = MusicHub.GetConnections(_activeUser.Id.Value.ToString());
             if (connections != null && connections.Any())
             {
-                await _hubContext.Clients.Clients(connections).SendAsync("ItemUpdated", "delete", id);
+                await _hubContext.Clients.Clients(connections).SendAsync("ItemUpdated", action, itemId);
             }
         }
-
-        return NoContent();
-
     }
-   
- }
+}
