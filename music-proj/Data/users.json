@@ -33,5 +33,19 @@
     "password": 0,
     "Mail": "t000@gmail.com",
     "Role": "User"
+  },
+  {
+    "Id": 115,
+    "Name": "\u05DE\u05DC\u05D9",
+    "password": 1,
+    "Mail": "wa@gmai.com",
+    "Role": "User"
+  },
+  {
+    "Id": 116,
+    "Name": "\u05D9\u05E2\u05DC",
+    "password": 0,
+    "Mail": "yael@gmail.com",
+    "Role": "User"
   }
 ]
