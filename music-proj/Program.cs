@@ -81,10 +81,10 @@ builder.Services.AddAuthentication(options =>
             }
         };
     })
-    .AddGoogle(options =>
+.AddGoogle(options =>
 {
-    options.ClientId = "862846808441-aobmot69hr735vr7r8jinqbcrshb9fdo.apps.googleusercontent.com";
-    options.ClientSecret = "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"; 
+    options.ClientId = builder.Configuration["Authentication:Google:ClientId"];
+    options.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
 });
 
 builder.Services.AddAuthorization(options =>
